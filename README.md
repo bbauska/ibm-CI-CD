@@ -1,3 +1,7 @@
+---
+ibm-ci-cd: ibm's Continuous Integration / Continuous Development
+---
+
 # ibm's Continuous Integration / Continuous Delivery
 **(by Coursera/CD0215en)**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -589,8 +593,13 @@ And lastly, CI/CD takes less deployment time because everything is
 already tested, and deployments are automated, so they happen faster
 with greater repeatability.
 
-![](./images/image021.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image021.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image021.png){width="4.0in" height="2.2538462379702535in"} -->
 
 In this module (2), you learned that:
 
@@ -619,16 +628,26 @@ In this module (2), you learned that:
 
 Welcome to 'Platform and Tools'.
 
-![](./images/image022.png){width="4.0in"
-height="2.095726159230096in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image022.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image022.png){width="4.0in" height="2.095726159230096in"} -->
 
 After this module, you will be able to:
 
 Understand it's Ok to use different tools for CI/CD, and identify some
 common tools for CI/CD.
 
-![](./images/image023.png){width="4.0in"
-height="2.095726159230096in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image023.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image023.png){width="4.0in" height="2.095726159230096in"} -->
 
 There are lots of tools your pipelines can use even within the same
 company.
@@ -647,13 +666,23 @@ Artifactory, but the specific tool being used isn't important.
 What matters is that they're using a tool to automate these processes
 instead of doing them manually.
 
-![](./images/image024.png){width="4.0in"
-height="2.095727252843395in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image024.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image024.png){width="4.0in" height="2.095727252843395in"} -->
 
 In fact, there\'s a plethora of tools for CI/CD you can choose from.
 
-![](./images/image025.png){width="4.0in"
-height="2.095726159230096in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image025.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image025.png){width="4.0in" height="2.095726159230096in"} -->
 
 For example, if you look at just the 'CI' box in the 'Build' column of
 this diagram of pipeline tools, you can see Team City, Jenkins, Travis
@@ -665,8 +694,13 @@ similar ways of working and similar concepts.
 So, if you try out a tool, and decide that you don\'t like it, you can
 just keep trying new ones until you find a tool that you like to use.
 
-![](./images/image026.png){width="4.0in"
-height="2.095726159230096in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image026.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image026.png){width="4.0in" height="2.095726159230096in"} -->
 
 Let's have a brief overview of some of the common tools for CI/CD.
 
@@ -695,8 +729,13 @@ GitHub Actions is a CI/CD platform that enables you to automate your
 build, test, and deploy GitHub workflows. Unlike other tools, it only
 works with GitHub.
 
-![](./images/image027.png){width="4.0in"
-height="2.095726159230096in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image027.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image027.png){width="4.0in" height="2.095726159230096in"} -->
 
 In this chapter (3), you learned that different line of business
 applications within the same organization may have many teams each using
@@ -711,15 +750,25 @@ until you find one that you like to use.
 
 Welcome to Infrastructure as Code.
 
-![](./images/image028.png){width="4.0in"
-height="2.18034230096238in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image028.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image028.png){width="4.0in" height="2.18034230096238in"} -->
 
 After this chapter (4), you will be able to explain what Infrastructure
 as Code is, describe the benefits of IaC, and describe the various tools
 of IaC.
 
-![](./images/image029.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image029.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image029.png){width="4.0in" height="2.258546587926509in"} -->
 
 Let's discuss what we mean by Infrastructure as Code, or IaC.
 
@@ -743,8 +792,13 @@ same environment every time, so it's consistent and repeatable.
 Textual code is normally written in the YAML format, which is a very
 common way to write and declare IaC.
 
-![](./images/image030.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image030.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image030.png){width="4.0in" height="2.258546587926509in"} -->
 
 So, why are we discussing Infrastructure as Code in this course?
 
@@ -765,8 +819,13 @@ Due to repeatable configuration, you can rapidly provision the same
 platform over and over again and be sure that it will be in the same
 state every time.
 
-![](./images/image031.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image031.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image031.png){width="4.0in" height="2.258546587926509in"} -->
 
 Infrastructure as code tools can be either declarative or imperative.
 
@@ -1908,8 +1967,13 @@ If you recall in the Git Feature Branch workflow from a previous module,
 you are now on the final two steps of the process where you must first
 issue a pull request, and then merge your code.
 
-![](./images/image108.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image108.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image108.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Let's review the pull request process.
 
@@ -1922,8 +1986,13 @@ changes to, and merge in any new code from the main branch.
 This ensures that you have the latest changes from the main branch
 included in your branch.
 
-![](./images/image109.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image109.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image109.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Once any merge conflicts have been resolved and this process is
 complete, you can push your local branch to your remote repo. With this
@@ -1962,8 +2031,13 @@ height="2.2538462379702535in"}
 Finally, you can push your updated branch to the remote repo, which is
 now ready to be merged back into the main branch.
 
-![](./images/image114.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image114.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image114.png){width="4.0in" height="2.2538462379702535in"} -->
 
 After your pull request has been merged, you should switch to the main
 branch and pull the most current code, which now includes your latest
@@ -2747,15 +2821,25 @@ There are currently 35 different events that can trigger a workflow.
 As you can see from this list, whenever you modify an issue, a label, or
 a milestone, or you fork a repo, it can trigger an event.
 
-![](./images/image170.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image170.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image170.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Probably the most popular events that you will use in your workflows are
 performing pull requests, pushing code to a branch, or creating a new
 release.
 
-![](./images/image171.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image171.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image171.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Here's an example of an event that runs whenever a pull request is
 opened or reopened against the master branch.
@@ -2777,8 +2861,13 @@ monitor.
 
 This example designates the master branch as the target.
 
-![](./images/image172.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image172.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image172.png){width="4.0in" height="2.2572648731408576in"} -->
 
 This next example runs whenever a push is made to the main branch,
 including from merging a pull request.
@@ -2791,8 +2880,13 @@ event, which in this case is 'push.'
 Then the list of branches follows, which in this example only contains
 the main branch, but it could have contained more.
 
-![](./images/image173.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image173.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image173.png){width="4.0in" height="2.2572648731408576in"} -->
 
 The last example will run whenever a release is published, although it
 could have specified other types like when a release is created.
@@ -2810,8 +2904,13 @@ Hub.
 Whatever activity you want to automate when creating a release, this
 event will help you get the job done.
 
-![](./images/image174.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image174.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image174.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Next, you have jobs.
 
@@ -2839,16 +2938,26 @@ This tells GitHub Actions to run the 'build' job first.
 The 'publish' job will not run until the 'build' job, which it depends
 on, has been completed successfully.
 
-![](./images/image175.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image175.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image175.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Each job contains a runner, optional required services, and a series of
 steps to execute.
 
 We'll look at these components later in this course.
 
-![](./images/image176.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image176.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image176.png){width="4.0in" height="2.2572648731408576in"} -->
 
 In this module, you learned that:​
 
@@ -2895,8 +3004,13 @@ provision your lab environment.
 
 Welcome to 'Deeper Dive into GitHub Actions -- Part Two'.
 
-![](./images/image177.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image177.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image177.png){width="4.0in" height="2.2572648731408576in"} -->
 
 After this module, you will be able to;
 
@@ -2909,14 +3023,24 @@ After this module, you will be able to;
 We've already discussed events and jobs, but now let's take a closer
 look at the remaining elements of a GitHub Actions workflow.
 
-![](./images/image178.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image178.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image178.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Specifically, let's discuss what constitutes a job; namely runners,
 steps, and actions.
 
-![](./images/image179.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image179.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image179.png){width="4.0in" height="2.2572648731408576in"} -->
 
 A runner is a server that performs a job on a specific platform or
 operating system.
@@ -2929,8 +3053,13 @@ There are several flavors of Ubuntu, macOS, and Windows Server.
 Once you specify a runner for a job, all of the steps will be executed
 on that runner.
 
-![](./images/image180.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image180.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image180.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Here are some examples of runner definitions.
 
@@ -2939,15 +3068,25 @@ To specify a runner, you use the 'runs-on:' keyword.
 This first job is called 'build,' and it runs on whatever the latest
 version of Ubuntu is.
 
-![](./images/image181.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image181.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image181.png){width="4.0in" height="2.2572648731408576in"} -->
 
 This next job is very similar, but it specifies Ubuntu 22.04, so this
 job always runs on the 22.04 version of Ubuntu regardless of the latest
 version.
 
-![](./images/image182.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image182.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image182.png){width="4.0in" height="2.2572648731408576in"} -->
 
 This last job runs inside of a Python 3.9-slim Docker container, which
 is actually Debian 11 inside.
@@ -2963,6 +3102,12 @@ to run my build in the same containers to minimize surprises.
 
 Jobs can also optionally define required services for the workflow.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image183.png"
+    alt="."
+    width="400" />
+</p>
 ![](./images/image183.png){width="4.0in"
 height="2.2572648731408576in"}
 
@@ -2977,8 +3122,13 @@ needs.
 This example creates a Postgres database that is required before running
 some unit tests.
 
-![](./images/image184.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image184.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image184.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Whatever name you use for the service becomes the DNS name that you use
 to access it.
@@ -2989,8 +3139,13 @@ called postgres.
 Using services like this allows you to specify the same Docker
 containers that you use in development for use in your workflows.
 
-![](./images/image185.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image185.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image185.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Steps are the heart of GitHub Actions.
 
@@ -3027,8 +3182,13 @@ this.
 
 And you can have as many steps as you need in a job.
 
-![](./images/image186.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image186.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image186.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Actions are procedures that can be executed within a step.
 
@@ -3043,8 +3203,13 @@ keyword followed by name-value pairs.
 
 Some actions use the 'args:' keyword.
 
-![](./images/image187.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image187.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image187.png){width="4.0in" height="2.2572648731408576in"} -->
 
 In this example, the codecov action accepts a version as one of its
 optional parameters.
@@ -3054,14 +3219,24 @@ possible options that you can configure an action with.
 
 This is one time that reading the documentation really helps you.
 
-![](./images/image188.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image188.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image188.png){width="4.0in" height="2.2572648731408576in"} -->
 
 I've mentioned the GitHub Actions Marketplace several times, and it\'s a
 great place to find actions.
 
-![](./images/image189.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image189.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image189.png){width="4.0in" height="2.2572648731408576in"} -->
 
 In this example, a search for Python retrieves actions to set up a
 Python environment, run a Python linter, use coveralls (which is another
@@ -3070,51 +3245,91 @@ code coverage utility), and more.
 Always check the GitHub Actions Marketplace for any action you may want
 to perform.
 
-![](./images/image190.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image190.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image190.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Let\'s put everything together with an example.
 
 Every workflow has a name.
 
-![](./images/image191.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image191.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image191.png){width="4.0in" height="2.2572648731408576in"} -->
 
 This one is called 'CI Build' because it\'s part of a Continuous
 Integration workflow.
 
-![](./images/image192.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image192.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image192.png){width="4.0in" height="2.2572648731408576in"} -->
 
 It's triggered on a pull request to the master branch.
 
-![](./images/image193.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image193.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image193.png){width="4.0in" height="2.2572648731408576in"} -->
 
 It has a job called 'build' that runs in a Python 3.9 container on top
 of the latest Ubuntu runner.
 
-![](./images/image194.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image194.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image194.png){width="4.0in" height="2.2572648731408576in"} -->
 
 And it creates a database service called 'redis' from the Redis 6-Alpine
 Docker image.
 
 Then in the steps:
 
-![](./images/image195.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image195.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image195.png){width="4.0in" height="2.2572648731408576in"} -->
 
 It checks out the code using a GitHub action.
 
-![](./images/image196.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image196.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image196.png){width="4.0in" height="2.2572648731408576in"} -->
 
 It uses a shell command to upgrade pip and wheel and then uses pip to
 install all of the packages in the 'requirements.txt' file.
 
-![](./images/image197.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image197.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image197.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Then it runs the unit tests using a popular Python test runner called
 nosetests.
@@ -3123,8 +3338,13 @@ In the same step, it establishes an environment variable called
 'DATABASE_URI' that points to the 'redis' database service that it
 created earlier.
 
-![](./images/image198.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image198.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image198.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Finally, it uploads code coverage data to the Codecov website using
 version 0.1.13 of a codecov uploader by specifying the version number as
@@ -3134,8 +3354,13 @@ Hopefully, this shows you how to put events, jobs, runners, services,
 steps, and actions together to build a Continuous Integration workflow
 that will trigger on every pull request to the master branch.
 
-![](./images/image199.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image199.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image199.png){width="4.0in" height="2.2572648731408576in"} -->
 
 In this module, you learned that:
 
@@ -3324,8 +3549,13 @@ So, let\'s get started.
 
 Welcome to 'What is Continuous Delivery?'
 
-![](./images/image200.png){width="4.0in"
-height="2.1666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image200.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image200.png){width="4.0in" height="2.1666666666666665in"} -->
 
 After this module, you will be able to:
 
@@ -3336,8 +3566,13 @@ After this module, you will be able to:
 
 -   Explain the benefits of Continuous Delivery.
 
-![](./images/image201.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image201.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image201.png){width="4.0in" height="2.25042760279965in"} -->
 
 The first thing that's important to understand, is the difference
 between Continuous Delivery and Continuous Integration, because a lot of
@@ -3362,8 +3597,13 @@ loop.
 And then, when you finally merge to your main branch, you kick off the
 Continuous Delivery part.
 
-![](./images/image202.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image202.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image202.png){width="4.0in" height="2.25042760279965in"} -->
 
 The term Continuous Delivery can be defined as a series of practices
 designed to ensure that code can be rapidly and safely deployed to
@@ -3388,8 +3628,13 @@ Nobody performed any manual steps to deploy the code.
 
 It is continuously deployed automatically.
 
-![](./images/image203.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image203.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image203.png){width="4.0in" height="2.25042760279965in"} -->
 
 So, what are the goals of Continuous Delivery?
 
@@ -3399,8 +3644,13 @@ software can be released to production at any time."
 
 Let's dig deeper into what that means.
 
-![](./images/image204.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image204.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image204.png){width="4.0in" height="2.25042760279965in"} -->
 
 To release to production at any time, means that the main or master
 branch must always be deployable.
@@ -3418,8 +3668,13 @@ Working in separate feature branches and using pull requests ensures
 that any code you have written is working correctly before you merge it
 back into the main branch.
 
-![](./images/image205.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image205.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image205.png){width="4.0in" height="2.25042760279965in"} -->
 
 The benefits of Continuous Delivery are many and varied and they include
 the following:
@@ -3599,8 +3854,13 @@ Delivery.
     code releases move into the test and production environments in a
     consistent, predictable way.
 
-> ![](./images/image216.png){width="4.0in"
-> height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image216.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image216.png){width="4.0in" height="2.2572648731408576in"} -->
 
 -   Automate as many processes as possible. In Continuous Delivery, you
     must automate as many processes as possible in your software
@@ -5616,3 +5876,4 @@ to start a DevOps-related job role. This includes those who are new to
 application development as well as experienced software developers and
 operations professionals who want to upskill with DevOps, Cloud Native,
 and Agile practices, technologies, and tools.
+<!-- 10-9-2023 12:37pm readme.md of ibm-ci-cd.bauska.org -->
