@@ -1,5 +1,5 @@
 ---
-ibm-ci-cd: ibm's Continuous Integration / Continuous Development
+ibm-ci-cd: ibm's Continuous Integration / Continuous Delivery
 ---
 
 # ibm's Continuous Integration / Continuous Delivery
@@ -2491,73 +2491,128 @@ section. Add a commit message and optionally add a description, then
 click Commit changes. The \"commit changes\" is used to save your
 changes to the repository.
 
-![](./images/image149.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image149.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image149.png){width="4.0in" height="2.260683508311461in"} -->
 
 Go back to the home screen by clicking the repository name link. Note
 that the readme file is updated and verify your changes.
 
-![](./images/image150.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image150.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image150.png){width="4.0in" height="2.260683508311461in"} -->
 
 Let's learn how to create a new file using the built-in web editor
 provided by GitHub which runs in the browser. Click Add File, then click
 Create New File to create the new file.
 
-![](./images/image151.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image151.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image151.png){width="4.0in" height="2.260683508311461in"} -->
 
 To create a python file called firstpython.py.
 
 First, provide the file name. Next, add a comment that describes your
 code, then add the code.
 
-![](./images/image152.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image152.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image152.png){width="4.0in" height="2.260683508311461in"} -->
 
 Once finished, commit the change to the repository.
 
-![](./images/image153.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image153.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image153.png){width="4.0in" height="2.260683508311461in"} -->
 
 You can see that your file is now added to the repository and the
 repository listing shows when the file was added or changed.
 
-![](./images/image154.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image154.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image154.png){width="4.0in" height="2.260683508311461in"} -->
 
 When you need to change the file, you can edit it again.
 
 Click the file name, and then click the pencil icon, make your edits and
 commit the changes.
 
-![](./images/image155.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image155.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image155.png){width="4.0in" height="2.260683508311461in"} -->
 
 You can also upload a file from your local system into the repository.
 
 From the home screen of the repository, click Add File and choose the
 Upload files option.
 
-![](./images/image156.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image156.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image156.png){width="4.0in" height="2.260683508311461in"} -->
 
 Click Choose Your Files and select the files you want to upload from
 your local system.
 
-![](./images/image157.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image157.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image157.png){width="4.0in" height="2.260683508311461in"} -->
 
 The file upload process may take a short time, depending on what you are
 uploading. Once the files finish uploading, click Commit Changes.
 
-![](./images/image158.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image158.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image158.png){width="4.0in" height="2.260683508311461in"} -->
 
 The repository now reflects the files that were uploaded.
 
-![](./images/image159.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image159.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image159.png){width="4.0in" height="2.260683508311461in"} -->
 
 In this module, you learned how to create a repository, edit files, and
 commit changes using the web interface.
@@ -2566,8 +2621,13 @@ commit changes using the web interface.
 
 Welcome to Introduction to GitHub Actions.
 
-![](./images/image160.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image160.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image160.png){width="4.0in" height="2.25042760279965in"} -->
 
 After this module, you will be able to: describe the basics of the
 GitHub Actions tool.​
@@ -2596,8 +2656,13 @@ describes when they should be triggered.
 GitHub Actions processes all the files in the workflows folder but
 executes them only when the workflow's specified event happens.
 
-![](./images/image161.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image161.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image161.png){width="4.0in" height="2.25042760279965in"} -->
 
 Similar to Jenkins with its rich collection of plugins, GitHub Actions
 has a marketplace that hosts actions that you can use in your workflows.
@@ -2611,8 +2676,13 @@ Before writing a script to perform some action, I always check the
 marketplace to see if somebody has already created an action for it, and
 most of the time, someone has.
 
-![](./images/image162.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image162.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image162.png){width="4.0in" height="2.25042760279965in"} -->
 
 One of the nice features of GitHub Actions is that, unlike many of its
 competitors like Jenkins, Circle CI, and Travis CI, there\'s no website
@@ -2631,8 +2701,13 @@ Lastly, starter code is available to get you up and running quickly.
 From the Actions tab in your GitHub repo, you can select from the
 functional workflow templates and edit them for your situation.
 
-![](./images/image163.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image163.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image163.png){width="4.0in" height="2.25042760279965in"} -->
 
 The basic concept in GitHub Actions is a workflow.
 
@@ -2681,8 +2756,13 @@ compile code, or run tests.
 This hierarchy of jobs, steps, and actions allows you to logically group
 the actions performed by your workflow.
 
-![](./images/image164.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image164.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image164.png){width="4.0in" height="2.25042760279965in"} -->
 
 In this module, you learned that:
 
@@ -2702,8 +2782,13 @@ In this module, you learned that:
 
 Welcome to 'Deeper Dive into GitHub Actions -- Part One.'
 
-![](./images/image165.png){width="4.0in"
-height="2.122649825021872in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image165.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image165.png){width="4.0in" height="2.122649825021872in"} -->
 
 After this module, you will be able to;
 
@@ -2713,8 +2798,13 @@ After this module, you will be able to;
 
 -   Explain the event and job components of GitHub Actions.
 
-![](./images/image166.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image166.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image166.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Let\'s look at how GitHub Actions works.
 
@@ -2739,8 +2829,13 @@ when you issue a pull request, a test may run.
 The job runs in an isolated environment, either on a virtual machine or
 in a Docker container.
 
-![](./images/image167.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image167.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image167.png){width="4.0in" height="2.2572648731408576in"} -->
 
 To set up for using GitHub Actions, you first create a ***'.github'***
 folder (if you don't already have one).
@@ -2753,8 +2848,13 @@ workflows into the 'workflows' folder.
 
 And that\'s all the configuration you need.
 
-![](./images/image168.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image168.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image168.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Each workflow contains the following components:
 
@@ -2805,8 +2905,13 @@ workflows.
 Always check to see if an action exists in the marketplace before you
 create one or use shell commands.
 
-![](./images/image169.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image169.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image169.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Let\'s look at the first two of these workflow components in greater
 detail.
