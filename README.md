@@ -4,7 +4,7 @@ ibm-ci-cd: ibm's Continuous Integration / Continuous Delivery
 
 <h2 align="center">ibm's Continuous Integration / Continuous Delivery</h2>
 
-<p align="center">**(by Coursera/CD0215en)**</p>
+<p align="center"><b>(by Coursera/CD0215en)</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of ibm-ci-cd.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16,7 +16,7 @@ ibm-ci-cd: ibm's Continuous Integration / Continuous Delivery
 
 <!-- ![](./images/image001.png){width="2.0in" height="1.094737532808399in"} -->
 
-### About this course
+<h3>About this course</h3>
 
 Continuous Integration and Continuous Delivery (CI/CD) is a key skill
 that every modern-day Software and DevOps Engineer should know. This
@@ -47,13 +47,13 @@ Throughout this course, you'll demonstrate your CI/CD skills by
 completing several hands-on labs with real-world tools used by DevOps
 professionals.
 
-### **Recommended Background**
+<h3>Recommended Background</h3>
 
 Basic computer operating skills, including using a web browser.
 
-### Course Learning Objectives and Syllabus
+<h3>Course Learning Objectives and Syllabus</h3>
 
-### **Course Learning Objectives:**
+<h3>Course Learning Objectives:</h3>
 
 -   Explain Infrastructure as Code, describe tools used, and create
     Infrastructure as Code scripts using Terraform.
@@ -67,9 +67,9 @@ Basic computer operating skills, including using a web browser.
 -   Describe the process of Continuous Development (CD), run test cases,
     and deploy to cloud using tools including Chef and Puppet.
 
-### **Syllabus**
+<h3>Syllabus</h3>
 
-### **Module 1: Introduction to CI/CD**
+<h3>Module 1: Introduction to CI/CD</h3>
 
 1.  Module 1 - Introduction to CI/CD (06)
 
@@ -81,7 +81,7 @@ Basic computer operating skills, including using a web browser.
 
 > Summary, Highlights & Quiz
 
-### **Module 2: Continuous Integration**
+<h3>Module 2: Continuous Integration</h3>
 
 1.  Module 2 - Continuous Integration (32)
 
@@ -114,7 +114,7 @@ Basic computer operating skills, including using a web browser.
 > Reading: Summary & Highlights: Implementing Continuous Integration
 > (CI) (122)
 
-### **Module 3: Continuous Delivery (CD) (123)**
+<h3>Module 3: Continuous Delivery (CD) (123)</h3>
 
 1.  Module 3 - Continuous Delivery (124)
 
@@ -156,19 +156,19 @@ Basic computer operating skills, including using a web browser.
 >
 > Reading: Summary & Highlights: Implementing Pipelines with Tekton
 
-### **Module 4: Final Exam**
+<h3>Module 4: Final Exam</h3>
 
 1.  Module 4 Introduction - Final Exam
 
 > Quiz: Final Exam
 
-### **Course Wrap-up:**
+<h3>Course Wrap-up:</h3>
 
 > Reading: Congrats & Next Steps
 >
 > Reading: Thanks, from the Course Team
 
-### Course Introduction
+<h3>Course Introduction</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -263,7 +263,7 @@ engineering is a team sport and collaboration is encouraged.
 
 Please read on.
 
-### **Pre-requisites**
+<h3>Pre-requisites</h3>
 
 Before you take this course, you should know about the following topics:
 
@@ -285,7 +285,7 @@ Before you take this course, you should know about the following topics:
 If you do not have this level of knowledge, click the links above to
 view courses that can help you gain the skills required.
 
-## Module 1-01. Introduction to CI/CD
+<h2 id="1-01">Module 1-01. Introduction to CI/CD</h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -295,7 +295,7 @@ view courses that can help you gain the skills required.
 </p>
 <!-- ![](./images/image004.png){width="4.0in" height="2.256410761154856in"} -->
 
-### **Module Introduction**
+<h3>Module Introduction</h3>
 
 This module introduces you to Continuous Integration and Continuous
 Delivery (CI/CD), an automated approach to software development. You'll
@@ -306,7 +306,7 @@ You'll also learn about Infrastructure as Code (IaC), the process by
 which you use code to automate the provision and management of your
 infrastructure. 
 
-### **Learning Objectives**
+<h3>Learning Objectives</h3>
 
 -   Define Continuous Integration (CI) and Continuous Delivery (CD) and
     describe the key differences between them.
@@ -316,7 +316,7 @@ infrastructure. 
 -   Define Infrastructure as Code (IaC) and explain its benefits for
     DevOps.
 
-### Welcome to Module 1, Introduction to CI/CD
+<h3>Welcome to Module 1, Introduction to CI/CD</h3>
 
 In this module, you will get a broad introduction to Continuous
 Integration and Continuous Delivery, or CI/CD as it is commonly referred
@@ -343,7 +343,7 @@ we dive deep into each topic individually.
 
 Let\'s get started.
 
-## Module 1-02. What is CI/CD? (5:39)
+<h2 id="1-02">Module 1-02. What is CI/CD? (5:39)</h2>
 
 Welcome to 'What Is CI/CD?'
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -625,7 +625,7 @@ In this module (2), you learned that:
 
 -   There are several benefits to CI/CD.
 
-## Module 1-03. Platform and Tools (3:01)
+<h2 id="1-03">Module 1-03. Platform and Tools (3:01)</h2>
 
 Welcome to 'Platform and Tools'.
 
@@ -747,7 +747,7 @@ processes are being automated instead of being done manually, and there
 are a lot of tools out there for CI/CD and you can keep trying new ones
 until you find one that you like to use.
 
-## Module 1-04. What is Infrastructure as Code? (8:25)
+<h2 id="1-04">Module 1-04. What is Infrastructure as Code? (8:25)</h2>
 
 Welcome to Infrastructure as Code.
 
@@ -1088,7 +1088,7 @@ In this module, you learned that;
 
 -   There are several different flavors of IaC tools available.
 
-### Reading: Summary & Highlights
+<h3>Reading: Summary & Highlights</h3>
 
 Congratulations! You have completed this lesson. At this point in the
 course, you know:
@@ -1118,9 +1118,9 @@ course, you know:
 
 -   You can choose from a wide array of IaC tools. 
 
-# Module 2. Continuous Integration - Introduction and Learning Objectives
+<h1>Module 2. Continuous Integration - Introduction and Learning Objectives</h1>
 
-### **Module Introduction**
+<h3>Module Introduction</h3>
 
 This module provides an overview of Continuous Integration (CI). You
 will learn the features of CI and its benefits for DevOps. You will
@@ -1136,7 +1136,7 @@ workflows and their essential components: events, runners, jobs, steps,
 and actions. You'll even practice using GitHub Actions to set up and
 trigger a CI workflow and automate code coverage reporting. 
 
-### **Learning Objectives**
+<h3>Learning Objectives</h3>
 
 -   Describe the essential features of Continuous Integration (CI).
 
@@ -1162,7 +1162,7 @@ trigger a CI workflow and automate code coverage reporting. 
 -   Integrate automatic code coverage reporting into a CI workflow in
     GitHub Actions.
 
-## Module 2-01. Continuous Integration (1:50)
+<h2 id="2-01">Module 2-01. Continuous Integration (1:50)</h2>
 
 Welcome to Module 2, Continuous Integration.
 
@@ -1209,7 +1209,7 @@ immediately apply it to your own project.
 
 So, let\'s get started.
 
-## Module 2-02. What is Continuous Integration? (CI) (5:13)
+<h2 id="2-02">Module 2-02. What is Continuous Integration? (CI) (5:13)</h2>
 
 Welcome to 'What Is Continuous Integration?'
 
@@ -1463,7 +1463,7 @@ This encourages collaboration between developers, who frequently discuss
 pull requests for concise changes, and there are tools that make
 implementing CI easy, by streamlining development and testing.
 
-## Module 2-03. Benefits of Continuous Integration (4:30)
+<h2 id="2-03">Module 2-03. Benefits of Continuous Integration (4:30)</h2>
 
 Welcome to 'Benefits of CI'.
 
@@ -1760,7 +1760,7 @@ control works.
 You also learned that your development teams should regularly monitor
 each other's work.
 
-## Module 2-04. Social Coding (3:44)
+<h2 id="2-04">Module 2-04. Social Coding (3:44)</h2>
 
 Welcome to Social Coding.
 
@@ -1930,7 +1930,7 @@ increased collaboration, and
 there are four main steps to implementing social coding in practice, and
 each step flows into the next.
 
-## Module 2-05. Git Feature Branch Workflow: Working in Branches (7:24)
+<h2 id="2-05">Module 2-05. Git Feature Branch Workflow: Working in Branches (7:24)</h2>
 
 Welcome to Git Feature Branch Workflow -- Working in Branches.
 
@@ -2277,16 +2277,26 @@ The 'dash u' option followed by the remote branch name are only needed
 the first time to create the remote branch, and any subsequent commits
 can be pushed without them.
 
-<!-- ![](./images/image103.png){width="4.0in"
-height="2.2641021434820647in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image103.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image103.png){width="4.0in" height="2.2641021434820647in"} -->
 
 The whole process has three key components.
 
 We want to work off the latest code available, create a new branch to
 store our changes, and set up a remote branch to push our changes to.
 
-<!-- ![](./images/image104.png){width="4.0in"
-height="2.2641021434820647in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image104.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image104.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Say the next day you did some more work and now you have new changes to
 push.
@@ -2296,8 +2306,13 @@ You would perform the same process as before.
 Add your code to the staging area, commit it with a descriptive message,
 and push that code to the remote repository.
 
-<!-- ![](./images/image105.png){width="4.0in"
-height="2.2641021434820647in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image105.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image105.png){width="4.0in" height="2.2641021434820647in"} -->
 
 In this module, you learned that Git is an essential tool that enables
 DevOps and has many commands that provide essential functionality, the
@@ -2306,19 +2321,29 @@ their job to develop clean, concise, and high-quality code, and as a
 developer, using the Git Feature Branch workflow is essential if you
 want to take advantage of all the benefits Git can provide.
 
-## Module 2-06. Git Feature Workflow: Making a Pull Request (2:49)
+<h2 id="2-06">Module 2-06. Git Feature Workflow: Making a Pull Request (2:49)</h2>
 
 Welcome to Git Feature Branch Workflow: Making Pull Requests.
 
-<!-- ![](./images/image106.png){width="4.0in"
-height="2.138033683289589in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image106.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image106.png){width="4.0in" height="2.138033683289589in"} -->
 
 After this module, you will be able to explain what the Git Feature
 Branch workflow looks like in practice, and describe the pull request
 workflow.
 
-<!-- ![](./images/image107.png){width="4.0in"
-height="2.2538462379702535in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image107.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image107.png){width="4.0in" height="2.2538462379702535in"} -->
 
 If you recall in the Git Feature Branch workflow from a previous module,
 you are now on the final two steps of the process where you must first
@@ -2456,7 +2481,7 @@ feature branch to develop in, you need to remember to always pull
 updated code from the main branch before creating making a pull request,
 and you should delete the feature branch after the branch is merged.
 
-## Module 2-07. Tools of Continuous Integration (8:59)
+<h2 id="2-07">Module 2-07. Tools of Continuous Integration (8:59)</h2>
 
 Welcome to Tools of Continuous Integration.
 
@@ -2896,7 +2921,7 @@ In this module, you learned that;
 -   Tools such as CircleCI and Travis CI are offered as services so that
     you don't have to worry about managing them.
 
-### Reading: Summary & Highlights
+<h3>Reading: Summary & Highlights</h3>
 
 Congratulations! You have completed this lesson. At this point in the
 course, you know: 
@@ -2951,7 +2976,7 @@ course, you know: 
 -   Many CI tools are offered as services that you can easily run and
     scale on the cloud.
 
-## Module 2-08. Github - Getting Started (3:26)
+<h2 id="2-08">Module 2-08. Github - Getting Started (3:26)</h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3164,7 +3189,7 @@ The repository now reflects the files that were uploaded.
 In this module, you learned how to create a repository, edit files, and
 commit changes using the web interface.
 
-## Module 2-09. Introduction to GitHub Actions (4:14)
+<h2 id="2-09">Module 2-09. Introduction to GitHub Actions (4:14)</h2>
 
 Welcome to Introduction to GitHub Actions.
 
@@ -3325,7 +3350,7 @@ In this module, you learned that:
 -   And a workflow is a series of automated procedures represented as
     jobs, steps, and actions that GitHub Actions executes.
 
-## Module 2-10. Deeper Dive into GitHub Actions: Part 1 (6:33)
+<h2 id="2-10">Module 2-10. Deeper Dive into GitHub Actions: Part 1 (6:33)</h2>
 
 Welcome to 'Deeper Dive into GitHub Actions -- Part One.'
 
@@ -3624,7 +3649,7 @@ In this module, you learned that:​
 
 -   A job is a set of steps that use the same runner for execution.
 
-### Lab: Using GitHub Actions - Part 1
+<h3>Lab: Using GitHub Actions - Part 1</h3>
 
 Welcome to the hands-on lab for **Using GitHub Actions - Part 1**. In
 this part, you will build a workflow in a GitHub repository using GitHub
@@ -3643,16 +3668,16 @@ In case you need to download the lab instructions
 click [HERE ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module2/github_actions_part1.md.html)to
 open a new tab (9 pages make up lab).
 
-### Using GitHub Actions - Part 1 (External resource)
+<h3>Using GitHub Actions - Part 1 (External resource)</h3>
 
 Clicking on the Open Tool button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-#### Open Tool
+<h4>Open Tool</h4>
 
-## Module 2-11. Deeper Dive into GitHub Actions: Part 2 (6:50)
+<h2 id="2-11">Module 2-11. Deeper Dive into GitHub Actions: Part 2 (6:50)</h2>
 
 Welcome to 'Deeper Dive into GitHub Actions -- Part Two'.
 
@@ -4052,16 +4077,16 @@ In case you need to download the lab instructions
 click [HERE](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module2/github_actions_part2.md.html) to
 open a new tab.
 
-### Using GitHub Actions - Part 2 (External resource)
+<h3>Using GitHub Actions - Part 2 (External resource)</h3>
 
 Clicking on the Open Tool button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-#### Open Tool
+<h4>Open Tool</h4>
 
-### Summary & Highlights: Implementing Continuous Integration (CI)
+<h3>Summary & Highlights: Implementing Continuous Integration (CI)</h3>
 
 Congratulations! You have completed this lesson. At this point in the
 course, you know:
@@ -4084,9 +4109,9 @@ course, you know:
 -   The GitHub Actions Marketplace provides a variety of prebuilt
     actions that you can use in your workflows. 
 
-# Module 3. Continuous Delivery - Introduction and Learning Objective
+<h1>Module 3. Continuous Delivery - Introduction and Learning Objective</h1>
 
-### **Module Introduction**
+<h3>Module Introduction</h3>
 
 This module provides an overview of Continuous Delivery (CD). You will
 explore CD's goals, benefits, key principles, and best practices. You
@@ -4103,7 +4128,7 @@ create your own tasks to automate linting and unit testing. You will
 discover how to complete your CD pipeline by building a container image
 and deploying your application to an environment. 
 
-### **Learning Objectives**
+<h3>Learning Objectives</h3>
 
 -   Explain the benefits of Continuous Delivery (CD).
 
@@ -4147,7 +4172,7 @@ and deploying your application to an environment. 
 -   Use the OpenShift client in Tekton to deploy a Docker image to
     Kubernetes.
 
-## Module 3-01. Continuous Delivery (2:00)
+<h2 id="3-01">Module 3-01. Continuous Delivery (2:00)</h2>
 
 Welcome to Module 3, Continuous Delivery.
 
@@ -4196,7 +4221,7 @@ with or modify for your own projects.
 
 So, let\'s get started.
 
-## Module 3-02. What is Continuous Delivery? (4:41)
+<h2 id="3-02">Module 3-02. What is Continuous Delivery? (4:41)</h2>
 
 Welcome to 'What is Continuous Delivery?'
 
@@ -4385,7 +4410,7 @@ In this module, you learned that:
     Quality Assurance and Staging or Testing to ensure that what you
     deliver to production is bug-free and fit for purpose.
 
-## Module 3-03. Continuous Delivery Key Principles (2:46)
+<h2 id="3-03">Module 3-03. Continuous Delivery Key Principles (2:46)</h2>
 
 Welcome to 'Continuous Delivery Key Principles.'
 
@@ -4503,7 +4528,7 @@ In this module, you learned that
 
 -   Everyone is responsible for their part in the story.
 
-## Module 3-04. Continuous Delivery Practices (4:14)
+<h2 id="3-04">Module 3-04. Continuous Delivery Practices (4:14)</h2>
 
 Welcome to 'Continuous Delivery Practices.'
 
@@ -4653,7 +4678,7 @@ In this module, you learned that;
 -   Continuous Deployment is the practice of taking the delivered code
     and deploying it into the production environment.
 
-## Module 3-05. Tools of Continuous Delivery (7:56)
+<h2 id="3-05">Module 3-05. Tools of Continuous Delivery (7:56)</h2>
 
 Welcome to Tools of Continuous Delivery.
 
@@ -4882,7 +4907,7 @@ In this module, you learned that;
 -   Tekton pipelines are fully portable, so developers can reuse their
     components.
 
-### Reading: Understanding Continuous Delivery
+<h3>Reading: Understanding Continuous Delivery</h3>
 
 Congratulations! You have completed this lesson. At this point in the
 course, you know: 
@@ -4922,7 +4947,7 @@ course, you know: 
 -   Tools within your CD pipeline should handle scanning and deployment
     tasks
 
-## Module 3-06. Introduction Tekton and Pipelines (6:25)
+<h2 id="3-06">Module 3-06. Introduction Tekton and Pipelines (6:25)</h2>
 
 Welcome to Introduction to Tekton and Pipelines.
 
@@ -5128,7 +5153,7 @@ In this module, you learned that;
 -   The physical building blocks of Tekton are a set of Kubernetes
     custom resource definitions or CRDs.
 
-## Module 3-07. Building a Tekton Pipeline (8:39)
+<h2 id="3-07">Module 3-07. Building a Tekton Pipeline (8:39)</h2>
 
 Welcome to 'Building a Tekton Pipeline.'
 
@@ -5486,7 +5511,7 @@ any container and call any command, tasks can accept external
 parameters, and Tekton pipelines can be created by referencing tasks and
 passing any required parameters to them.
 
-### Hands-on Lab: Building a Tekton Pipeline
+<h3>Hands-on Lab: Building a Tekton Pipeline</h3>
 
 Welcome to the hands-on lab for **Building a Tekton Pipeline**. In this
 lab, you will create a simple Tekton pipeline with one task in Step 1
@@ -5507,16 +5532,16 @@ In case you need to download the lab instructions
 click[ HERE ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/01_base_pipeline.md.html) to
 open a new tab.
 
-### Building a Tekton Pipeline (External resource)
+<h3>Building a Tekton Pipeline (External resource)</h3>
 
 Clicking on the Open Tool button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-Open Tool 
+<h4>Open Tool</h4>
 
-## Module 3-08. Creating Tekton Triggers (9:11)
+<h2 id="3-08">Module 3-08. Creating Tekton Triggers (9:11)</h2>
 
 Welcome to 'Creating Tekton Triggers.'
 
@@ -5759,7 +5784,7 @@ events and bind parameters from them, Tekton TriggerTemplates can create
 PipelineRuns, passing in the parameters to the pipeline, and you can
 test your EventListener using the curl command.
 
-## Hands-on Lab: Adding GitHub Triggers
+<h3>Hands-on Lab: Adding GitHub Triggers</h3>
 
 Welcome to this hands-on lab for** Adding GitHub Triggers.**
 
@@ -5777,7 +5802,7 @@ In case you need to download the lab instructions
 click [HERE](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/02_add_github_trigger.md.html) to
 open a new tab. 
 
-## Adding GitHub Triggers (External resource)
+<h3>Adding GitHub Triggers (External resource)</h3>
 
 Clicking on the Open Tool button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
@@ -5786,7 +5811,7 @@ provision your lab environment.
 
 Open Tool 
 
-## Module 3-09. Leveraging the Tekton Catalog (7:55)
+<h2 id="3-09">Module 3-09. Leveraging the Tekton Catalog (7:55)</h2>
 
 Welcome to 'Leveraging the Tekton Catalog.'
 
@@ -5978,7 +6003,7 @@ defines the parameters and workspaces it needs in order to run, the
 PipelineRun must map the workspace to a PersistentVolumeClaim, and the
 parameters can be mapped from the pipeline to the task as needed.
 
-## Hands-on Lab: Use Tekton Continuous Delivery Catalog
+<h3>Hands-on Lab: Use Tekton Continuous Delivery Catalog</h3>
 
 Welcome to the hands-on lab for **Using the Tekton Catalog**. The Tekton
 community provides a wide selection of tasks and pipelines that you can
@@ -5997,7 +6022,7 @@ In case you need to download the lab instructions
 click [HERE ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/03_use_tekton_catalog.md.html)to
 open a new tab.
 
-## Use Tekton Continuous Delivery Catalog (External resource)
+<h3>Use Tekton Continuous Delivery Catalog (External resource)</h3>
 
 Clicking on the Open Tool button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
@@ -6006,7 +6031,7 @@ provision your lab environment.
 
 Open Tool 
 
-## Module 3-10. Creating Tasks for Quality Checks and Tasks (8:50)
+<h2 id="3-10">Module 3-10. Creating Tasks for Quality Checks and Tasks (8:50)</h2>
 
 Welcome to Creating Tasks for Quality Checks and Testing.
 
@@ -6232,7 +6257,7 @@ pass configuration information into a task, and tasks like tests and
 quality checks, can be run serially or in parallel, depending on your
 needs.
 
-## Lab: Integrating Unit Test Automation
+<h3>Lab: Integrating Unit Test Automation</h3>
 
 Welcome to Integrating Unit Test Automation. In this lab, we will take
 the code that was cloned in the previous pipeline step and run linting
@@ -6258,7 +6283,7 @@ provision your lab environment.
 
 Open Tool 
 
-## Module 3-11. Building an Image (5:30)
+<h2 id="3-11">Module 3-11. Building an Image (5:30)</h2>
 
 Welcome to 'Building an Image.'
 
@@ -6408,7 +6433,7 @@ instead of using the website, you can use ClusterTasks without having to
 install them locally in your namespace, and to run a task after parallel
 tasks, you must specify all the parallel tasks in runAfter.
 
-## Hands-on Lab: Building an Image
+<h3>Hands-on Lab: Building an Image</h3>
 
 Welcome to the hands-on lab for **Building an Image**. You are now at
 the build step, which is the next to last step in your CD pipeline.
@@ -6427,7 +6452,7 @@ In case you need to download the lab instructions,
 click [HERE](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/05_build_an_image.md.html) to
 open in a new tab.
 
-## Building an Image (External resource)
+<h3>Building an Image (External resource)</h3>
 
 Clicking on the Open Tool button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
@@ -6436,7 +6461,7 @@ provision your lab environment.
 
 Open Tool 
 
-### Deploying to Kubernetes (6:55)
+<h2 id="3-12">Module 3-12. Deploying to Kubernetes (6:55)</h2>
 
 Welcome to 'Deploying to Kubernetes.'
 
@@ -6626,7 +6651,7 @@ multiple CLI tasks that allow you to run any CLI commands that you need,
 and you can deploy applications using only commands or apply manifests
 in YAML format.
 
-## Hands-on Lab: Deploy to Kubernetes/ Open Shift
+<h3>Hands-on Lab: Deploy to Kubernetes/ Open Shift</h3>
 
 Welcome to the hands-on lab for **Deploying to Kubernetes / OpenShift**.
 You are now at the deploy step, which is the last step in your CD
@@ -6642,16 +6667,16 @@ Note: In case you are unable to access the Open Tool button,
 instructions to complete this lab are also
 available [here ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/06_deploy_to_kubernetes.md.html).  
 
-## Deploy to Kubernetes/OpenShift (External resource)
+<h3>Deploy to Kubernetes/OpenShift (External resource)</h3>
 
 Clicking on the Open Tool button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-Open Tool 
+<h4>Open Tool</h4>
 
-## Reading: Summary & Highlights: Implementing Pipelines with Tekton
+<h3>Reading: Summary & Highlights: Implementing Pipelines with Tekton</h3>
 
 Congratulations! You have completed this lesson. At this point in the
 course, you know: 
@@ -6686,14 +6711,14 @@ course, you know: 
 -   You can deploy applications to an environment using commands or YAML
     manifests.
 
-## Module Introduction
+<h3>Module Introduction</h3>
 
 In this module, you will complete a final exam that tests your knowledge
 of the course's content. The exam will include questions on topics
 including but not limited to CI/CD's principles, features, benefits,
 tools, and methods of implementation.
 
-# Module 4 Introduction - Final Exam (0:55)
+<h1>Module 4 Introduction - Final Exam (0:55)</h1>
 
 Welcome to Module 4, the Final Exam.
 
@@ -6720,7 +6745,7 @@ I hope you found it enlightening.
 
 Good luck!
 
-## Congrats & Next Steps
+<h3>Congrats & Next Steps</h3>
 
 Congratulations on completing this course on continuous integration and
 continuous delivery! We hope you enjoyed it and will find great
@@ -6735,7 +6760,7 @@ Specialization](https://www.coursera.org/specializations/devops-cloud-and-agile-
 [IBM DevOps and Software Engineering Professional
 Certificate](https://www.coursera.org/professional-certificates/devops-and-software-engineering)
 
-## **Who should take the course**
+<h3>Who should take the course</h3>
 
 The IBM DevOps, Cloud, and Agile Foundations Specialization caters to
 the needs of learners interested in developing foundational knowledge in
