@@ -2,8 +2,9 @@
 ibm-ci-cd: ibm's Continuous Integration / Continuous Delivery
 ---
 
-# ibm's Continuous Integration / Continuous Delivery
-**(by Coursera/CD0215en)**
+<h2 align="center">ibm's Continuous Integration / Continuous Delivery</h2>
+
+<p align="center">**(by Coursera/CD0215en)**</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of ibm-ci-cd.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -80,7 +81,7 @@ Basic computer operating skills, including using a web browser.
 
 > Summary, Highlights & Quiz
 
-**Module 2: Continuous Integration**
+### **Module 2: Continuous Integration**
 
 1.  Module 2 - Continuous Integration (32)
 
@@ -113,7 +114,7 @@ Basic computer operating skills, including using a web browser.
 > Reading: Summary & Highlights: Implementing Continuous Integration
 > (CI) (122)
 
-**Module 3: Continuous Delivery (CD) (123)**
+### **Module 3: Continuous Delivery (CD) (123)**
 
 1.  Module 3 - Continuous Delivery (124)
 
@@ -155,13 +156,13 @@ Basic computer operating skills, including using a web browser.
 >
 > Reading: Summary & Highlights: Implementing Pipelines with Tekton
 
-**Module 4: Final Exam**
+### **Module 4: Final Exam**
 
 1.  Module 4 Introduction - Final Exam
 
 > Quiz: Final Exam
 
-**Course Wrap-up:**
+### **Course Wrap-up:**
 
 > Reading: Congrats & Next Steps
 >
@@ -1117,7 +1118,7 @@ course, you know:
 
 -   You can choose from a wide array of IaC tools. 
 
-## Module 2. Continuous Integration - Introduction and Learning Objectives
+# Module 2. Continuous Integration - Introduction and Learning Objectives
 
 ### **Module Introduction**
 
@@ -3649,7 +3650,7 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-### Open Tool
+#### Open Tool
 
 ## Module 2-11. Deeper Dive into GitHub Actions: Part 2 (6:50)
 
@@ -4029,7 +4030,7 @@ In this module, you learned that:
 -   The GitHub Actions Marketplace has many prebuilt actions for you to
     use in your workflows.
 
-## Lab: Using GitHub Actions - Part 2
+### Lab: Using GitHub Actions - Part 2
 
 Welcome to the hands-on lab for **Using GitHub Actions - Part 2**. In
 this part, you will continue building the Continuous Integration
@@ -4058,9 +4059,9 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-### Open Tool
+#### Open Tool
 
-## Summary & Highlights: Implementing Continuous Integration (CI)
+### Summary & Highlights: Implementing Continuous Integration (CI)
 
 Congratulations! You have completed this lesson. At this point in the
 course, you know:
@@ -4085,7 +4086,7 @@ course, you know:
 
 # Module 3. Continuous Delivery - Introduction and Learning Objective
 
-## **Module Introduction**
+### **Module Introduction**
 
 This module provides an overview of Continuous Delivery (CD). You will
 explore CD's goals, benefits, key principles, and best practices. You
@@ -4102,7 +4103,7 @@ create your own tasks to automate linting and unit testing. You will
 discover how to complete your CD pipeline by building a container image
 and deploying your application to an environment. 
 
-## **Learning Objectives**
+### **Learning Objectives**
 
 -   Explain the benefits of Continuous Delivery (CD).
 
@@ -4881,7 +4882,7 @@ In this module, you learned that;
 -   Tekton pipelines are fully portable, so developers can reuse their
     components.
 
-## Reading: Understanding Continuous Delivery
+### Reading: Understanding Continuous Delivery
 
 Congratulations! You have completed this lesson. At this point in the
 course, you know: 
@@ -5485,7 +5486,7 @@ any container and call any command, tasks can accept external
 parameters, and Tekton pipelines can be created by referencing tasks and
 passing any required parameters to them.
 
-## Hands-on Lab: Building a Tekton Pipeline
+### Hands-on Lab: Building a Tekton Pipeline
 
 Welcome to the hands-on lab for **Building a Tekton Pipeline**. In this
 lab, you will create a simple Tekton pipeline with one task in Step 1
@@ -5506,7 +5507,7 @@ In case you need to download the lab instructions
 click[ HERE ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/01_base_pipeline.md.html) to
 open a new tab.
 
-## Building a Tekton Pipeline (External resource)
+### Building a Tekton Pipeline (External resource)
 
 Clicking on the Open Tool button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
@@ -5515,7 +5516,7 @@ provision your lab environment.
 
 Open Tool 
 
-## Module 3-08. Creating a Tekton Triggers (9:11)
+## Module 3-08. Creating Tekton Triggers (9:11)
 
 Welcome to 'Creating Tekton Triggers.'
 
