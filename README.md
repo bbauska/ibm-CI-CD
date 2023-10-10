@@ -848,8 +848,13 @@ commands in the order you specify.
 Tools like Chef are imperative and to some extent, Ansible can be as
 well.
 
-![](./images/image032.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image032.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image032.png){width="4.0in" height="2.258546587926509in"} -->
 
 Let's take a look at how Ansible uses inventory files, and VAR files, to
 see how they work as an IaC tool.
@@ -881,8 +886,13 @@ architecture.
 You must reference the inventory files when executing Ansible or an
 Ansible playbook.
 
-![](./images/image033.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image033.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image033.png){width="4.0in" height="2.258546587926509in"} -->
 
 So, Ansible has this notion of a playbook that contains any number of
 plays.
@@ -896,8 +906,13 @@ the web servers or all of the database servers.
 So, a playbook is a collection reusable plays that are instructions that
 you give to Ansible to carry out.
 
-![](./images/image034.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image034.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image034.png){width="4.0in" height="2.258546587926509in"} -->
 
 Ansible will read the playbook, determine which servers from the
 inventory that the plays are appropriate for, and execute the plays on
@@ -920,8 +935,13 @@ installing things twice.
 
 Ansible will take care not to do that if it isn\'t needed.
 
-![](./images/image035.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image035.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image035.png){width="4.0in" height="2.258546587926509in"} -->
 
 So, what are the benefits of using IaC?
 
@@ -956,8 +976,13 @@ and scale infrastructure.
 It also enables developers to spend less time on plumbing and more time
 on mission-critical software solutions.
 
-![](./images/image036.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image036.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image036.png){width="4.0in" height="2.258546587926509in"} -->
 
 Now, let's briefly discuss some of the main IaC tools available.
 
@@ -972,8 +997,13 @@ software on top of it.
 
 It is a very popular tool for cloud provisioning.
 
-![](./images/image037.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image037.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image037.png){width="4.0in" height="2.258546587926509in"} -->
 
 Ansible is an open-source tool that automates IT tools such as
 intra-service orchestration, application deployment, cloud provisioning,
@@ -992,8 +1022,13 @@ Internet of Things devices.
 These modules are run on the client side and the results are sent back
 to the Ansible server.
 
-![](./images/image038.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image038.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image038.png){width="4.0in" height="2.258546587926509in"} -->
 
 Chef describes the necessary steps to reach a final state rather than
 describing the state itself.
@@ -1005,16 +1040,26 @@ One of the strengths of Chef is that it's a popular tool and has lots of
 support but one of the drawbacks is that cookbooks are written in Ruby
 so you need to have Ruby skills on your team.
 
-![](./images/image039.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image039.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image039.png){width="4.0in" height="2.258546587926509in"} -->
 
 With Puppet, you can use any existing platform.
 
 The main difference between Puppet and Chef is that Puppet is
 declarative, which some consider to be a preferred method.
 
-![](./images/image040.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image040.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image040.png){width="4.0in" height="2.258546587926509in"} -->
 
 SaltStack's remote execution capabilities allow administrators to run
 commands on various machines in parallel with a flexible targeting
@@ -1023,8 +1068,13 @@ system.
 SaltStack is designed to allow users to explicitly target and issue
 commands to multiple machines directly.
 
-![](./images/image041.png){width="4.0in"
-height="2.258546587926509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image041.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image041.png){width="4.0in" height="2.258546587926509in"} -->
 
 In this module, you learned that;
 
@@ -1162,8 +1212,13 @@ So, let\'s get started.
 
 Welcome to 'What Is Continuous Integration?'
 
-![](./images/image042.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image042.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image042.png){width="4.0in" height="2.2572648731408576in"} -->
 
 After this module, you will be able to:
 
@@ -1171,8 +1226,13 @@ Define Continuous Integration, or CI, describe the main features of CI,
 and explain the differences between CI-based and traditional
 development.
 
-![](./images/image043.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image043.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image043.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Continuous Integration (or CI) is an automation process that, as its
 name implies, enables the continuous integration of code changes back
@@ -1193,8 +1253,13 @@ run the tests for them and alert them of any failures.
 And this helps to identify any integration bugs sooner rather than
 later.
 
-![](./images/image044.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image044.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image044.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Before diving into CI, you need to first understand traditional
 development.
@@ -1211,15 +1276,25 @@ tested and merged into the main branch and built for production.
 This development method can cause drift between the main branch and the
 development branch, among other issues.
 
-![](./images/image045.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image045.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image045.png){width="4.0in" height="2.2572648731408576in"} -->
 
 The main features of CI are:
 
 Short-lived branches, frequent pull requests, and automated CI tools.
 
-![](./images/image046.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image046.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image046.png){width="4.0in" height="2.2572648731408576in"} -->
 
 In CI, developers work in short-lived feature branches where they
 develop their code.
@@ -1246,8 +1321,13 @@ Ultimately, this means you can deploy your code faster overall, as you
 don't need to run through a large code review because you have been
 checking the changes every time they've been pushed.
 
-![](./images/image047.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image047.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image047.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Making frequent pull requests back to the master or main branch is a
 best practice.
@@ -1257,8 +1337,13 @@ specific purpose.
 
 It makes code changes cleaner and easier to understand.
 
-![](./images/image048.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image048.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image048.png){width="4.0in" height="2.2572648731408576in"} -->
 
 A pull request requires approval from a repository maintainer or owner
 to be successfully merged.
@@ -1268,30 +1353,50 @@ At a minimum, no one should be able to approve their own pull request.
 You want to ensure that every change has at least two sets of eyes on
 it.
 
-![](./images/image049.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image049.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image049.png){width="4.0in" height="2.2572648731408576in"} -->
 
 These frequent pull requests serve as small pieces of a much bigger
 puzzle, making it easy to build upon the most updated code.
 
 This function brings along with it many benefits:
 
-![](./images/image050.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image050.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image050.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Each pull request needs to be reviewed, which facilitates increased
 collaboration among developers.
 
-![](./images/image051.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image051.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image051.png){width="4.0in" height="2.2572648731408576in"} -->
 
 It also enables developers to react quickly.
 
 Required changes can be tested and put into production faster, so
 solutions can get to the customer faster.
 
-![](./images/image052.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image052.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image052.png){width="4.0in" height="2.2572648731408576in"} -->
 
 And due to the frequency of Continuous Integration, you know exactly how
 much functionality you have built to date, reducing management risk.
@@ -1299,8 +1404,13 @@ much functionality you have built to date, reducing management risk.
 It improves your ability to predict when and if you will deliver the
 necessary functionality on time.
 
-![](./images/image053.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image053.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image053.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Continuous Integration can be automated. But what does that mean?
 
@@ -1313,20 +1423,35 @@ That workflow can be anything, such as building an application.
 Once complete, these tools report back with messages of a successful or
 failed build.
 
-![](./images/image054.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image054.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image054.png){width="4.0in" height="2.2572648731408576in"} -->
 
 These tools can run tests that ensure your file changes or pull requests
 don't break the entire application.
 
-![](./images/image055.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image055.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image055.png){width="4.0in" height="2.2572648731408576in"} -->
 
 With these automation tools, you can streamline your development process
 so that testing and checking your code is never tedious.
 
-![](./images/image056.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image056.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image056.png){width="4.0in" height="2.2572648731408576in"} -->
 
 In this module, you learned that:
 
@@ -1337,18 +1462,28 @@ This encourages collaboration between developers, who frequently discuss
 pull requests for concise changes, and there are tools that make
 implementing CI easy, by streamlining development and testing.
 
-## Module 2-03. Benefits of Continuou#s Integration (4:30)
+## Module 2-03. Benefits of Continuous Integration (4:30)
 
 Welcome to 'Benefits of CI'.
 
-![](./images/image057.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image057.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image057.png){width="4.0in" height="2.2538462379702535in"} -->
 
 After this module, you will be able to: explain the main benefits of
 Continuous Integration.
 
-![](./images/image058.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image058.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image058.png){width="4.0in" height="2.2538462379702535in"} -->
 
 The first benefit of CI/CD is that you get faster reaction times to code
 changes.
@@ -1356,27 +1491,47 @@ changes.
 Because every time you make a change to your code and push it to a
 remote branch,
 
-![](./images/image059.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image059.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image059.png){width="4.0in" height="2.2538462379702535in"} -->
 
 the change gets tested, so even if you forgot to run the tests, the CI
 tool will test it.
 
-![](./images/image060.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image060.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image060.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Then, the change gets built, so even if you forgot to check if the build
 works, the CI tool will check it.
 
-![](./images/image061.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image061.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image061.png){width="4.0in" height="2.2538462379702535in"} -->
 
 And then you can deliver the solution into your customers' hands more
 quickly, knowing that all of the tests have passed, and the build is not
 broken.
 
-![](./images/image062.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image062.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image062.png){width="4.0in" height="2.2538462379702535in"} -->
 
 You also get the benefit of reduced code integration risk.
 
@@ -1384,16 +1539,26 @@ Because you\'re integrating smaller and smaller things.
 
 Smaller changes mean less risk of something going wrong.
 
-![](./images/image063.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image063.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image063.png){width="4.0in" height="2.2538462379702535in"} -->
 
 So, you\'re not having to integrate 100,000 lines of code into your
 millions of lines of code in your code-base.
 
 Those days are over.
 
-![](./images/image064.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image064.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image064.png){width="4.0in" height="2.2538462379702535in"} -->
 
 You're only having to integrate maybe 10, 20, 30, or 50 lines of code
 for example, so you're not looking at a lot of code to handle.
@@ -1403,15 +1568,25 @@ Remember, less change means less risk.
 Another benefit is that you get higher code quality with CI/CD, because
 things are constantly being reviewed and constantly being tested.
 
-![](./images/image065.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image065.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image065.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Every pull request is an opportunity for a code review.
 
 Forget about scheduling code reviews as a separate task.
 
-![](./images/image066.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image066.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image066.png){width="4.0in" height="2.2538462379702535in"} -->
 
 One of the things you should be doing as a best practice is, when
 someone makes a pull request, you should go and look at the code.
@@ -1419,21 +1594,36 @@ someone makes a pull request, you should go and look at the code.
 Having another set of eyes looking at what was changed while you\'re
 waiting for the test to pass is always going to be a good thing.
 
-![](./images/image067.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image067.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image067.png){width="4.0in" height="2.2538462379702535in"} -->
 
 During your review of the pull request, you can either say "yeah it
 looks good to me",
 
-![](./images/image068.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image068.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image068.png){width="4.0in" height="2.2538462379702535in"} -->
 
 or maybe you look at the title and it says, the code needs to do this,
 but then you see some piece of the code and realize that this code has
 nothing to do with that, so you can ask, "why are you changing this?".
 
-![](./images/image069.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image069.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image069.png){width="4.0in" height="2.2538462379702535in"} -->
 
 You should also look at the tests and see if all the tests passed.
 
@@ -1441,22 +1631,37 @@ Look at the code coverage.
 
 Let's say the code coverage went down.
 
-![](./images/image070.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image070.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image070.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Your team has a standard of 95% code coverage, but code coverage was
 only at 91%.
 
 So, what happened?
 
-![](./images/image071.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image071.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image071.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Maybe somebody wrote code, but they didn\'t write a test case to run all
 the lines of code.
 
-![](./images/image072.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image072.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image072.png){width="4.0in" height="2.2538462379702535in"} -->
 
 So, in your review of the pull request, you can simply say that you
 don\'t accept it, and you can request more changes to the code.
@@ -1465,16 +1670,26 @@ You could say "the code coverage went down and so I'm not going to
 approve this yet", and you can request that they write more test cases
 for the code.
 
-![](./images/image073.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image073.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image073.png){width="4.0in" height="2.2538462379702535in"} -->
 
 And then they can go and write more test cases, and the pull request
 will see the code changes and rerun the tests. If those test results
 look good to you now, you can say, "Ok, the code coverage is now above
 95%, so now I approve that pull request."
 
-![](./images/image074.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image074.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image074.png){width="4.0in" height="2.2538462379702535in"} -->
 
 This kind of monitoring of each other's work is what you should expect
 from your development teams; this is what you want them to be doing.
@@ -1485,8 +1700,13 @@ at each other\'s code and doing many code reviews.
 Because it\'s a lot easier to do code reviews on 20 lines of code than
 20,000 lines of code.
 
-![](./images/image075.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image075.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image075.png){width="4.0in" height="2.2538462379702535in"} -->
 
 These are the reasons that you do pull requests; you get a second set of
 eyes on the code and avoid something catastrophic happening without
@@ -1498,8 +1718,13 @@ Because, how are you going to do continuous delivery?
 
 Think about this for a moment.
 
-![](./images/image076.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image076.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image076.png){width="4.0in" height="2.2538462379702535in"} -->
 
 You\'re going to deploy from Git or some other source control management
 system where you keep your code.
@@ -1516,8 +1741,13 @@ production.
 So, it's very important to know that, yes, everything that\'s in that
 master branch in Git works.
 
-![](./images/image077.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image077.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image077.png){width="4.0in" height="2.2538462379702535in"} -->
 
 In this module, you learned that:
 
@@ -1533,16 +1763,26 @@ each other's work.
 
 Welcome to Social Coding.
 
-![](./images/image078.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image078.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image078.png){width="4.0in" height="2.2538462379702535in"} -->
 
 After this module, you will be able to:
 
 Describe how source code is managed in social coding, and explain social
 coding steps in practice.
 
-![](./images/image079.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image079.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image079.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Source code management (or SCM) is the practice of tracking versions of
 source code as it is developed.
@@ -1561,8 +1801,13 @@ systems.
 
 SCMs can be centralized or distributed.
 
-![](./images/image080.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image080.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image080.png){width="4.0in" height="2.2641021434820647in"} -->
 
 A centralized SCM stores the code repository and version history
 centrally, and developers check out pieces of the code and work on it
@@ -1577,8 +1822,13 @@ code repository and version history.
 This means they can perform local builds because each developer has the
 complete code locally.
 
-![](./images/image081.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image081.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image081.png){width="4.0in" height="2.2641021434820647in"} -->
 
 What is social coding?
 
@@ -1611,8 +1861,13 @@ well because it's controlled by the repository owner.
 The person who owns the repository is still in complete control of the
 contributions.
 
-![](./images/image082.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image082.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image082.png){width="4.0in" height="2.2641021434820647in"} -->
 
 This is how social coding works in practice.
 
@@ -1631,8 +1886,13 @@ When you're all done and have something to contribute, you issue a pull
 request signaling that you are ready for a review and the repo owner can
 decide whether to merge your code into the main project.
 
-![](./images/image083.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image083.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image083.png){width="4.0in" height="2.2641021434820647in"} -->
 
 The repo owners are in full control.
 
@@ -1652,8 +1912,13 @@ rewritten and everyone is happy.
 This is how open-source works and this is how companies should treat
 their inner source.
 
-![](./images/image084.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image084.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image084.png){width="4.0in" height="2.2641021434820647in"} -->
 
 In this module, you learned that source code management helps developers
 track changes and manage their source code,
@@ -1668,16 +1933,26 @@ each step flows into the next.
 
 Welcome to Git Feature Branch Workflow -- Working in Branches.
 
-![](./images/image085.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image085.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image085.png){width="4.0in" height="2.2641021434820647in"} -->
 
 After this module, you will be able to explain what Git is and why it's
 used for DevOps, analyze the workflow of working with Git and the Git
 Feature Branch workflow, and understand how developers work within Git
 branches when creating a new feature.
 
-![](./images/image086.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image086.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image086.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Git is a distributed source code management tool used by developers
 worldwide.
@@ -1704,8 +1979,13 @@ There are many ways to use Git in practice.
 Some of the most popular repository hosts are GitHub, GitLab, and
 BitBucket.
 
-![](./images/image087.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image087.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image087.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Git is the current standard for version control software.
 
@@ -1724,8 +2004,13 @@ DevOps benefits from Git because it can handle projects of all sizes,
 enables non-linear collaboration, and tracks version control to ensure
 code quality.
 
-![](./images/image088.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image088.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image088.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Let's look at how Git is used in practice.
 
@@ -1752,23 +2037,38 @@ What file changes do I want to persist the next time I make a commit?
 This gives developers an area to double-check they have exactly what
 they want to change ready to push.
 
-![](./images/image089.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image089.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image089.png){width="4.0in" height="2.2641021434820647in"} -->
 
 They can then run \`git commit\` to commit those changes to the version
 history of their local repo.
 
 This doesn't affect anyone else. It just changes the local repo.
 
-![](./images/image090.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image090.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image090.png){width="4.0in" height="2.2641021434820647in"} -->
 
 From there, the developer can continue working, or finally push their
 changes to the remote repo using \`git push\`, where everyone can see
 and access those changes.
 
-![](./images/image091.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image091.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image091.png){width="4.0in" height="2.2641021434820647in"} -->
 
 For another developer to get those changes locally, they can run \`git
 fetch\`, to fetch the most recent metadata of the remote repo, which
@@ -1780,15 +2080,25 @@ pulling any changes.
 
 This is so developers can avoid any potential merge conflicts.
 
-![](./images/image092.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image092.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image092.png){width="4.0in" height="2.2641021434820647in"} -->
 
 To get the actual changes, and to download and merge their changes into
 their own workspace, they can run \`git pull,\` which will pull the most
 recent version metadata and any changes.
 
-![](./images/image093.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image093.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image093.png){width="4.0in" height="2.2641021434820647in"} -->
 
 If a developer wants to work on a specific branch of code locally, they
 can run \`git checkout\` to switch their workspace from one branch to
@@ -1806,8 +2116,13 @@ last thing I committed.
 Just do a \`git checkout period\` and that will get you back to your
 last commit.
 
-![](./images/image094.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image094.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image094.png){width="4.0in" height="2.2641021434820647in"} -->
 
 If a developer has made a commit but realized that their changes are
 incomplete or incorrect,
@@ -1818,8 +2133,13 @@ changes in the staging area.
 Once they've made the necessary fixes, they can commit those changes
 once again.
 
-![](./images/image095.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image095.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image095.png){width="4.0in" height="2.2641021434820647in"} -->
 
 The last command is \`git reset \-\--hard\`.
 
@@ -1832,14 +2152,24 @@ So be mindful when using this command.
 This slide shows you the power of Git and how it can be used in a
 development process.
 
-![](./images/image096.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image096.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image096.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Now that you understand the Git command workflow, we can look at how the
 Git Feature Branch workflow is used in social coding, visually.
 
-![](./images/image097.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image097.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image097.png){width="4.0in" height="2.2641021434820647in"} -->
 
 You start by cloning the repo (if you don\'t have it on your local
 computer), and then creating a branch.
@@ -1847,8 +2177,13 @@ computer), and then creating a branch.
 You want to make sure that you create a new branch for every new feature
 that you work on.
 
-![](./images/image098.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image098.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image098.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Then as you\'re working on your code making changes, you'll want to
 commit those changes.
@@ -1856,8 +2191,13 @@ commit those changes.
 A commit gives you a checkpoint to go back to, so don\'t be afraid to
 make as many commits as you need.
 
-![](./images/image099.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image099.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image099.png){width="4.0in" height="2.2641021434820647in"} -->
 
 At some point, you\'re going to want to push those changes to a remote
 branch.
@@ -1865,8 +2205,13 @@ branch.
 This is like having a remote backup, so it's recommended you push your
 changes to a remote branch as often as needed; at least once a day.
 
-![](./images/image100.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image100.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image100.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Then you open a pull request.
 
@@ -1877,8 +2222,14 @@ This is where discuss and review comes into play.
 
 This is all part of social coding.
 
-![](./images/image101.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image101.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image101.png){width="4.0in"
+height="2.2641021434820647in"} -->
 
 Once your changes have been reviewed, they will then get deployed to
 testing.
@@ -1886,8 +2237,13 @@ testing.
 And once all the tests have passed, then you could merge the code back
 into the main or master branch.
 
-![](./images/image102.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image102.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image102.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Here's a sample workflow that developers may go through when starting
 development on a new feature.
@@ -1920,16 +2276,16 @@ The 'dash u' option followed by the remote branch name are only needed
 the first time to create the remote branch, and any subsequent commits
 can be pushed without them.
 
-![](./images/image103.png){width="4.0in"
-height="2.2641021434820647in"}
+<!-- ![](./images/image103.png){width="4.0in"
+height="2.2641021434820647in"} -->
 
 The whole process has three key components.
 
 We want to work off the latest code available, create a new branch to
 store our changes, and set up a remote branch to push our changes to.
 
-![](./images/image104.png){width="4.0in"
-height="2.2641021434820647in"}
+<!-- ![](./images/image104.png){width="4.0in"
+height="2.2641021434820647in"} -->
 
 Say the next day you did some more work and now you have new changes to
 push.
@@ -1939,8 +2295,8 @@ You would perform the same process as before.
 Add your code to the staging area, commit it with a descriptive message,
 and push that code to the remote repository.
 
-![](./images/image105.png){width="4.0in"
-height="2.2641021434820647in"}
+<!-- ![](./images/image105.png){width="4.0in"
+height="2.2641021434820647in"} -->
 
 In this module, you learned that Git is an essential tool that enables
 DevOps and has many commands that provide essential functionality, the
@@ -1953,15 +2309,15 @@ want to take advantage of all the benefits Git can provide.
 
 Welcome to Git Feature Branch Workflow: Making Pull Requests.
 
-![](./images/image106.png){width="4.0in"
-height="2.138033683289589in"}
+<!-- ![](./images/image106.png){width="4.0in"
+height="2.138033683289589in"} -->
 
 After this module, you will be able to explain what the Git Feature
 Branch workflow looks like in practice, and describe the pull request
 workflow.
 
-![](./images/image107.png){width="4.0in"
-height="2.2538462379702535in"}
+<!-- ![](./images/image107.png){width="4.0in"
+height="2.2538462379702535in"} -->
 
 If you recall in the Git Feature Branch workflow from a previous module,
 you are now on the final two steps of the process where you must first
@@ -1999,14 +2355,24 @@ complete, you can push your local branch to your remote repo. With this
 simple command, you can create and set a new branch in the remote repo
 to track your local branch.
 
-![](./images/image110.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image110.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image110.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Finally, you can create a pull request and have it reviewed and merged
 into the remote repository.
 
-![](./images/image111.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image111.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image111.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Before you make a pull request, be sure to complete the following tasks.
 
@@ -2017,16 +2383,26 @@ local workspace.
 Remember that the main branch contains the most current code because
 after changes are made, developers always merge back into it.
 
-![](./images/image112.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image112.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image112.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Next, merge the updated main branch into your working branch so that it
 also has the most current code as well.
 
 This may cause merge conflicts that you'll have to resolve manually.
 
-![](./images/image113.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image113.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image113.png){width="4.0in" height="2.2538462379702535in"} -->
 
 Finally, you can push your updated branch to the remote repo, which is
 now ready to be merged back into the main branch.
@@ -2043,20 +2419,35 @@ After your pull request has been merged, you should switch to the main
 branch and pull the most current code, which now includes your latest
 changes.
 
-![](./images/image115.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image115.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image115.png){width="4.0in" height="2.2538462379702535in"} -->
 
 To start fresh, delete the old feature branch you worked on, as the
 changes there have already been merged into the main branch.
 
-![](./images/image116.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image116.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image116.png){width="4.0in" height="2.2538462379702535in"} -->
 
 You can start developing on a new feature branch by creating it and
 checking it out.
 
-![](./images/image117.png){width="4.0in"
-height="2.2538462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image117.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image117.png){width="4.0in" height="2.2538462379702535in"} -->
 
 In this module, you learned that you make pull requests in the last two
 steps of the Git Feature Branch workflow, you should always create a new
@@ -2068,15 +2459,25 @@ and you should delete the feature branch after the branch is merged.
 
 Welcome to Tools of Continuous Integration.
 
-![](./images/image118.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image118.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image118.png){width="4.0in" height="2.267521872265967in"} -->
 
 After this module, you will be able to describe how the Jenkins tool
 works, describe how the CircleCI tool works, and describe how the Travis
 CI tool works.
 
-![](./images/image119.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image119.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image119.png){width="4.0in" height="2.267521872265967in"} -->
 
 Jenkins, the oldest of the three tools, implements both Continuous
 Integration and Continuous Delivery.
@@ -2104,8 +2505,13 @@ code, as you can see in this short example.
 It describes a simple pipeline with two stages to check out and test the
 code.
 
-![](./images/image120.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image120.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image120.png){width="4.0in" height="2.267521872265967in"} -->
 
 To implement Jenkins into your workflow, you first need to set up your
 project on the Jenkins website.
@@ -2141,8 +2547,13 @@ You can specify to execute a build when you push to the master branch,
 whenever you issue a pull request, or on the occurrence of many other
 events.
 
-![](./images/image121.png){width="4.0in"
-height="2.267522965879265in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image121.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image121.png){width="4.0in" height="2.267522965879265in"} -->
 
 Now let's take a look at a realistic example of a Jenkinsfile.
 
@@ -2150,8 +2561,13 @@ This example Jenkinsfile runs unit tests on a Python project.
 
 It has four stages.
 
-![](./images/image122.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image122.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image122.png){width="4.0in" height="2.267521872265967in"} -->
 
 When Jenkins is notified by a webhook, it runs through the Jenkinsfile.
 
@@ -2159,29 +2575,49 @@ At the top, it sets up the code to run in a Docker environment.
 
 The pipeline first checks out the code.
 
-![](./images/image123.png){width="4.0in"
-height="2.2675207786526683in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image123.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image123.png){width="4.0in" height="2.2675207786526683in"} -->
 
 The next step in this pipeline installs any specified Python package
 dependencies.
 
-![](./images/image124.png){width="4.0in"
-height="2.2675207786526683in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image124.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image124.png){width="4.0in" height="2.2675207786526683in"} -->
 
 Next, it lints every Python module in your code.
 
 This means it goes into your code and checks that it follows best coding
 practices.
 
-![](./images/image125.png){width="4.0in"
-height="2.2675207786526683in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image125.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image125.png){width="4.0in" height="2.2675207786526683in"} -->
 
 And lastly, it runs unit tests on your code.
 
 The process is straightforward and works similarly in other CI tools.
 
-![](./images/image126.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image126.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image126.png){width="4.0in" height="2.267521872265967in"} -->
 
 CircleCI is provided as a service, and implements both CI and CD.
 
@@ -2202,8 +2638,13 @@ The advantage of using YAML is that it is easily readable by both humans
 and machines and is a very popular format for configuring systems and
 services.
 
-![](./images/image127.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image127.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image127.png){width="4.0in" height="2.267521872265967in"} -->
 
 To implement CircleCI into your workflow, you need to first set up your
 project on the CircleCI website.
@@ -2226,8 +2667,13 @@ support both native and
 Docker builds and specify the pipeline instructions as code, like in the
 Jenkinsfile in Jenkins.
 
-![](./images/image128.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image128.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image128.png){width="4.0in" height="2.267521872265967in"} -->
 
 So, let's take a look at an example circle.yaml file.
 
@@ -2239,28 +2685,48 @@ It also supports databases such as MySQL, MongoDB, and Postgres.
 And since it supports Docker, anything you can build in Docker, you can
 build with CircleCI.
 
-![](./images/image129.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image129.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image129.png){width="4.0in" height="2.267521872265967in"} -->
 
 This section of the YAML file asks CircleCI to get a Docker Python image
 and sets an environment variable for the database URL.
 
-![](./images/image130.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image130.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image130.png){width="4.0in" height="2.267521872265967in"} -->
 
 The next section sets up PostgreSQL and several environment variables to
 configure Postgres.
 
-![](./images/image131.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image131.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image131.png){width="4.0in" height="2.267521872265967in"} -->
 
 Once the environment is set up, it checks out your code, installs
 packages, and runs tests.
 
 Clearly, you can see a pattern in how both Jenkins and CircleCI work.
 
-![](./images/image132.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image132.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image132.png){width="4.0in" height="2.267521872265967in"} -->
 
 Travis CI is just like the other two tools; it implements both CI and
 CD.
@@ -2287,8 +2753,13 @@ dependencies, runs unit tests, and uploads the code coverage.
 
 That's a lot of functionality for a little file.
 
-![](./images/image133.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image133.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image133.png){width="4.0in" height="2.267521872265967in"} -->
 
 To implement Travis CI into your workflow, you first need to set up your
 project on the Travis CI website.
@@ -2313,45 +2784,80 @@ Jenkins, which is a drawback.
 As you can tell, each of these tools provides a means to reach the same
 goal: enabling Continuous Integration of your code.
 
-![](./images/image134.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image134.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image134.png){width="4.0in" height="2.267521872265967in"} -->
 
 Let's take a look at an example Travis YAML file.
 
 Like the other two tools, the .travis.yml file defines the instructions
 to run the build.
 
-![](./images/image135.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image135.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image135.png){width="4.0in" height="2.267521872265967in"} -->
 
 The top of this file specifies the language to use to build the code.
 
-![](./images/image136.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image136.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image136.png){width="4.0in" height="2.267521872265967in"} -->
 
 Then, it requests a PostgreSQL database, sets an environment variable to
 the database URL, and provisions a test database to run the tests with.
 
-![](./images/image137.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image137.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image137.png){width="4.0in" height="2.267521872265967in"} -->
 
 After that, it installs the required Python dependency packages.
 
-![](./images/image138.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image138.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image138.png){width="4.0in" height="2.267521872265967in"} -->
 
 Once the environment is set up, this script then tests the code.
 
-![](./images/image139.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image139.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image139.png){width="4.0in" height="2.267521872265967in"} -->
 
 And finally, it collects and uploads the test results to Codecov.io.
 
 This is a very simple example, but it shows that it doesn't take much to
 automate Continuous Integration with Travis CI.
 
-![](./images/image140.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image140.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image140.png){width="4.0in" height="2.267521872265967in"} -->
 
 There is one more tool we didn't mention in this overview, and that's
 GitHub Actions.
@@ -2367,8 +2873,13 @@ by YAML files.
 GitHub Actions will be covered in more depth in subsequent modules, and
 it will be the tool that you use in this course.
 
-![](./images/image141.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image141.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image141.png){width="4.0in" height="2.267521872265967in"} -->
 
 In this module, you learned that;
 
@@ -2441,20 +2952,35 @@ course, you know: 
 
 ## Module 2-08. Github - Getting Started (3:26)
 
-![](./images/image142.png){width="4.0in"
-height="2.267521872265967in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image142.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image142.png){width="4.0in" height="2.267521872265967in"} -->
 
 In the previous module, you learned about Git and GitHub. Before you
 continue with this module, register for a GitHub account and log in.
 Let's start by creating a new repository.
 
-![](./images/image143.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image143.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image143.png){width="4.0in" height="2.260683508311461in"} -->
 
 Click + then click New Repository.
 
-![](./images/image144.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image144.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image144.png){width="4.0in" height="2.260683508311461in"} -->
 
 To create a new repository, you need to provide these details: give your
 new repository a name; optionally, add a description of your repository;
@@ -2463,28 +2989,48 @@ choose the repository visibility - whether you want it to be public or
 private; and choose the option to Initialize this repository with readme
 file. Then click Create Repository.
 
-![](./images/image145.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image145.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image145.png){width="4.0in" height="2.260683508311461in"} -->
 
 You will now be redirected to the repository you have created.
 
 The root folder of your repository is listed by default and it has just
 one file ReadMe.md.
 
-![](./images/image146.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image146.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image146.png){width="4.0in" height="2.260683508311461in"} -->
 
 Now, it's time to edit the readme. You can do this in your browser.
 
-![](./images/image147.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image147.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image147.png){width="4.0in" height="2.260683508311461in"} -->
 
 Just click the pencil to open the online editor and you can change the
 text of the readme. To save your changes to the repository, you must
 commit them.
 
-![](./images/image148.png){width="4.0in"
-height="2.260683508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image148.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image148.png){width="4.0in" height="2.260683508311461in"} -->
 
 After you have made your changes, scroll down to the Commit changes
 section. Add a commit message and optionally add a description, then
@@ -3213,8 +3759,7 @@ Jobs can also optionally define required services for the workflow.
     alt="."
     width="400" />
 </p>
-![](./images/image183.png){width="4.0in"
-height="2.2572648731408576in"}
+<!-- ![](./images/image183.png){width="4.0in" height="2.2572648731408576in"} -->
 
 Services are defined as Docker containers.
 
@@ -3811,8 +4356,13 @@ and to the test environment, and then the staging environment all
 without incident, the chances are pretty good that when you deploy to
 production that will also be without incident.
 
-![](./images/image206.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image206.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image206.png){width="4.0in" height="2.25042760279965in"} -->
 
 In this module, you learned that:
 
@@ -3838,14 +4388,24 @@ In this module, you learned that:
 
 Welcome to 'Continuous Delivery Key Principles.'
 
-![](./images/image207.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image207.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image207.png){width="4.0in" height="2.25042760279965in"} -->
 
 After this module, you will be able to describe the five key principles
 of Continuous Delivery.
 
-![](./images/image208.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image208.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image208.png){width="4.0in" height="2.25042760279965in"} -->
 
 The first of our key principles of Continuous Delivery is to ***build in
 quality***. You need to ensure that you have quality built in at every
@@ -3854,8 +4414,13 @@ continually reviewing your code. Every pull request is an opportunity
 for a code review and quality check. This is critical to make sure that
 everything looks good all the way along your pipeline.
 
-![](./images/image209.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image209.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image209.png){width="4.0in" height="2.25042760279965in"} -->
 
 The next key principle is to work in ***small batches***. That's why you
 should make your user stories small; it's best to make small changes
@@ -3863,8 +4428,13 @@ because less change means less risk. And you should continuously
 integrate these changes with the base code so that the changes never
 drift too far from the base that everyone else is working from.
 
-![](./images/image210.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image210.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image210.png){width="4.0in" height="2.25042760279965in"} -->
 
 The third key principle is knowing that people are great at solving
 problems, but not so good at repetition. So, ***people shouldn't be
@@ -3882,8 +4452,13 @@ or I.
 For example, applications such as GitHub Actions could do that job, and
 you would never have to pull and test code manually again.
 
-![](./images/image211.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image211.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image211.png){width="4.0in" height="2.25042760279965in"} -->
 
 The next key principle of Continuous Delivery is that it ***enables
 relentless continuous improvement***. The more often you do something,
@@ -3891,8 +4466,13 @@ the better you get at it, and the less likely it is to fail. By
 delivering each change to a known working environment, you should
 continually know where you are and when things are broken.
 
-![](./images/image212.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image212.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image212.png){width="4.0in" height="2.25042760279965in"} -->
 
 And the last key principle of Continuous Delivery is that ***everyone is
 responsible for their part in the story***. So, if a build does break,
@@ -3902,8 +4482,13 @@ from happening in the future?" What you need to consider is more about
 the system's failings rather than the people's failings. How did the
 system fail the people? Not the other way around.
 
-![](./images/image213.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image213.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image213.png){width="4.0in" height="2.25042760279965in"} -->
 
 In this module, you learned that
 
@@ -3921,8 +4506,13 @@ In this module, you learned that
 
 Welcome to 'Continuous Delivery Practices.'
 
-![](./images/image214.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image214.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image214.png){width="4.0in" height="2.25042760279965in"} -->
 
 After this module, you will be able to;
 
@@ -3932,9 +4522,13 @@ After this module, you will be able to;
 
 -   Describe the differences between Continuous Deployment and
     Continuous Delivery.
-
-![](./images/image215.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image215.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image215.png){width="4.0in" height="2.2572648731408576in"} -->
 
 There are many best practices to follow when implementing Continuous
 Delivery.
@@ -3984,8 +4578,13 @@ Delivery.
     Release automation tools are good at coordinating this kind of
     delivery. Alternatively, you can fully decouple.
 
-![](./images/image217.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image217.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image217.png){width="4.0in" height="2.2572648731408576in"} -->
 
 A CI/CD pipeline requires several elements to be in place:
 
@@ -4006,8 +4605,13 @@ A CI/CD pipeline requires several elements to be in place:
     artifacts of the application so that once built and tested, they can
     be deployed easily.
 
-![](./images/image218.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image218.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image218.png){width="4.0in" height="2.2572648731408576in"} -->
 
 So, what's the difference between Continuous Deployment and Continuous
 Delivery?
@@ -4026,8 +4630,13 @@ Delivery?
     release new or updated software to production repeatedly, reliably,
     and quickly, then Continuous Deployment will be of great benefit.
 
-![](./images/image219.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image219.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image219.png){width="4.0in" height="2.2572648731408576in"} -->
 
 In this module, you learned that;
 
@@ -4047,8 +4656,13 @@ In this module, you learned that;
 
 Welcome to Tools of Continuous Delivery.
 
-![](./images/image220.png){width="4.0in"
-height="2.1461537620297464in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image220.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image220.png){width="4.0in" height="2.1461537620297464in"} -->
 
 After this module, you will be able to;
 
@@ -4058,8 +4672,13 @@ After this module, you will be able to;
 
 -   Describe the Argo CD and Tekton tools for CD.
 
-![](./images/image221.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image221.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image221.png){width="4.0in" height="2.2641021434820647in"} -->
 
 There are many tools available to the average developer for performing
 Continuous Delivery.
@@ -4086,8 +4705,13 @@ Continuous Delivery.
     source code manager. It supports all major cloud platforms, making
     the CI/CD pipeline very flexible to build.
 
-![](./images/image222.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image222.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image222.png){width="4.0in" height="2.2641021434820647in"} -->
 
 -   Travis CI is another CI tool that contains CD capabilities. It isn't
     as feature-rich as other CD implementations, but it requires minimal
@@ -4110,8 +4734,13 @@ height="2.2641021434820647in"}
     UI is well made and easy to use and integrates well with a variety
     of CI tools such as Jenkins, GitHub Actions, CircleCI, and more.
 
-![](./images/image223.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image223.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image223.png){width="4.0in" height="2.2641021434820647in"} -->
 
 When looking for a CD tool to use within your workflow, these key
 considerations should be top of mind.
@@ -4139,8 +4768,13 @@ considerations should be top of mind.
     handful to both set up and maintain. Using a CD tool to build a
     pipeline is just the first step.
 
-![](./images/image224.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image224.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image224.png){width="4.0in" height="2.2641021434820647in"} -->
 
 You must also consider what tools you need within your CD pipeline to
 perform the following tasks:
@@ -4181,8 +4815,13 @@ perform the following tasks:
     so that you get the same results regardless of whether you are
     deploying to development, test, staging, or production.
 
-![](./images/image225.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image225.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image225.png){width="4.0in" height="2.2641021434820647in"} -->
 
 A relatively new tool that is gaining in popularity is Argo CD.
 
@@ -4196,8 +4835,13 @@ A relatively new tool that is gaining in popularity is Argo CD.
     application state compared to the desired state, visualizes the
     differences, and ensures parity by automatically syncing.
 
-![](./images/image226.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image226.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image226.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Since we'll be using Tekton in this course, let's take a brief look at
 it.
@@ -4213,8 +4857,13 @@ it.
     defined, a developer in the organization can take a pipeline and
     reuse its components.
 
-![](./images/image227.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image227.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image227.png){width="4.0in" height="2.2641021434820647in"} -->
 
 In this module, you learned that;
 
@@ -4276,8 +4925,13 @@ course, you know: 
 
 Welcome to Introduction to Tekton and Pipelines.
 
-![](./images/image228.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image228.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image228.png){width="4.0in" height="2.2641021434820647in"} -->
 
 After this module, you will be able to;
 
@@ -4285,8 +4939,13 @@ After this module, you will be able to;
 
 -   Describe how Tekton works.
 
-![](./images/image229.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image229.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image229.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Let\'s start by describing what Tekton is.
 
@@ -4304,8 +4963,13 @@ Let\'s start by describing what Tekton is.
     on the cloud. Anywhere you can run a Kubernetes cluster, you can run
     Tekton.
 
-![](./images/image230.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image230.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image230.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Some of the benefits of using Tekton include the following:
 
@@ -4326,8 +4990,13 @@ Some of the benefits of using Tekton include the following:
     the underlying implementation so that you can choose how to build,
     test, and deploy applications based on your teams' requirements.
 
-![](./images/image231.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image231.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image231.png){width="4.0in" height="2.2641021434820647in"} -->
 
 To understand how Tekton works, let's take a look at a few conceptual
 building blocks that exemplify the workflow:
@@ -4352,8 +5021,13 @@ building blocks that exemplify the workflow:
     but most often, they are shell scripts that execute commands to
     build, test, and deploy applications.
 
-![](./images/image232.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image232.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image232.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Now that you've seen how Tekton works conceptually, a closer look
 reveals that Tekton is a set of Kubernetes custom resource definitions,
@@ -4416,8 +5090,13 @@ another task, and create a container image from it in yet another task.
 
 Most pipelines require some form of persistent storage.
 
-![](./images/image233.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image233.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image233.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Since steps are always run in series, the containers will be created one
 at a time, each one starting when the previous one ends. Everything
@@ -4426,8 +5105,13 @@ Kubernetes cluster with no external CI/CD servers required. This is one
 of the things that makes Tekton the perfect technology for CI/CD with
 Kubernetes.
 
-![](./images/image234.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image234.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image234.png){width="4.0in" height="2.2641021434820647in"} -->
 
 In this module, you learned that;
 
@@ -4447,8 +5131,13 @@ In this module, you learned that;
 
 Welcome to 'Building a Tekton Pipeline.'
 
-![](./images/image235.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image235.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image235.png){width="4.0in" height="2.2641021434820647in"} -->
 
 After this module, you will be able to;
 
@@ -4458,20 +5147,35 @@ After this module, you will be able to;
 
 -   Organize tasks into a Tekton pipeline.
 
-![](./images/image236.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image236.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image236.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Referring to the conceptual building blocks of events, triggers,
 pipelines, tasks, and steps,
 
-![](./images/image237.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image237.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image237.png){width="4.0in" height="2.2641021434820647in"} -->
 
 you\'re now going to work from right to left and define your steps and
 tasks.
 
-![](./images/image238.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image238.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image238.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Think about what you need in your Continuous Delivery pipeline.
 
@@ -4491,18 +5195,33 @@ Think about what you need in your Continuous Delivery pipeline.
 -   Finally, you want to **deploy into some environment**---development,
     test, or staging.
 
-![](./images/image239.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image239.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image239.png){width="4.0in" height="2.2641021434820647in"} -->
 
 All of these become tasks in Tekton that run one after the other.
 
-![](./images/image240.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image240.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image240.png){width="4.0in" height="2.2641021434820647in"} -->
 
 When you put them all together, it's called a **pipeline**.
 
-![](./images/image241.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image241.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image241.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Let\'s see how you can start building this pipeline.
 
@@ -4530,8 +5249,13 @@ contained within a task, and that task runs on a pod.
 
 Every step executes in a new container in that pod.
 
-![](./images/image242.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image242.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image242.png){width="4.0in" height="2.2641021434820647in"} -->
 
 So, the next thing you need to define is what image to use to create
 that container. You use the 'image' keyword followed by
@@ -4539,14 +5263,24 @@ that container. You use the 'image' keyword followed by
 installed. Bitnami maintains a number of images that are great for
 creating CI/CD pipelines, and this Git image will do just fine.
 
-![](./images/image243.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image243.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image243.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Next, you need to define the command to run inside of that container,
 and you\'re going to use the 'git' command to clone the repository.
 
-![](./images/image244.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image244.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image244.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Finally, you need to tell the git command what to do, so you pass in
 'clone' as the first argument, but there\'s a problem.
@@ -4558,8 +5292,13 @@ You need the URL of the repository to clone as well.
 It looks like you\'re going to need to pass in a second argument that
 you currently don\'t have.
 
-![](./images/image245.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image245.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image245.png){width="4.0in" height="2.2641021434820647in"} -->
 
 So, let\'s go define one.
 
@@ -4574,8 +5313,13 @@ parameter is for and the type so that they know to pass it in a string.
 
 Now you can go back to the arguments and pass in the message.
 
-![](./images/image246.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image246.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image246.png){width="4.0in" height="2.2641021434820647in"} -->
 
 But how do you know how to reference it?
 
@@ -4591,8 +5335,13 @@ is.
 
 That completes your task definition.
 
-![](./images/image247.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image247.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image247.png){width="4.0in" height="2.2641021434820647in"} -->
 
 Now that you've created your first task, let's turn our attention to
 defining a pipeline.
@@ -4600,8 +5349,13 @@ defining a pipeline.
 Just like the task definition, a pipeline definition is a Kubernetes
 manifest.
 
-![](./images/image248.png){width="4.0in"
-height="2.2641021434820647in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image248.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image248.png){width="4.0in" height="2.2641021434820647in"} -->
 
 So, you start by specifying the API version.
 
@@ -4639,8 +5393,13 @@ value of that repo-url is going to come from 'params.repo-url'.
 This means that whatever repo-url you pass into the pipeline will be
 passed on to any task that requires it.
 
-![](./images/image249.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image249.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image249.png){width="4.0in" height="2.25042760279965in"} -->
 
 Now that you've defined at least one task and one pipeline, you're ready
 to run the pipeline.
@@ -4695,8 +5454,13 @@ tasks.
 You could have done this manually and accomplished the same result, but
 the Tekton CLI automates all of this for you, so why not use it?
 
-![](./images/image250.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image250.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image250.png){width="4.0in" height="2.25042760279965in"} -->
 
 Then, you wait for the logs to come back, and eventually, you see that
 the checkout step of the clone task has returned the git message that it
@@ -4708,8 +5472,13 @@ You have a successful pipeline run.
 You can continue to build this pipeline by creating more tasks and
 adding them to the pipeline definition.
 
-![](./images/image251.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image251.png"
+    alt="."
+    width="400" />
+</p>
+<!-- ![](./images/image251.png){width="4.0in" height="2.25042760279965in"} -->
 
 In this module, you learned that Tekton tasks can be written to run in
 any container and call any command, tasks can accept external
