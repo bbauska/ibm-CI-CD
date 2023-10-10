@@ -5545,12 +5545,33 @@ provision your lab environment.
 
 Welcome to 'Creating Tekton Triggers.'
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image252.png"
+    alt="."
+    width="400" />
+</p>
+
 After this module, you will be able to explain how to create Tekton
 events, explain how to create Tekton triggers, and describe how to use
 events and triggers to start a Tekton pipeline.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image253.png"
+    alt="."
+    width="400" />
+</p>
+
 If you refer back to the conceptual building blocks of events, triggers,
 pipelines, tasks, and steps, let's look closer at events and triggers.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image254.png"
+    alt="."
+    width="400" />
+</p>
 
 Tekton triggers allow your pipeline to respond to external events.
 
@@ -5562,6 +5583,13 @@ the properties in your pipeline.
 
 And the TriggerTemplate CRD, which takes data from the binding and
 instantiates a PipelineRun, passing in that data.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image255.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s take a look at how these triggers flow.
 
@@ -5575,10 +5603,24 @@ from the event and bind it to the parameters that the pipeline needs.
 The parameters from the TriggerBinding are then forwarded to the
 TriggerTemplate.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image256.png"
+    alt="."
+    width="400" />
+</p>
+
 The TriggerTemplate is defined as a PipelineRun which, as its name
 implies, runs your pipeline.
 
 This new PipelineRun resource starts, and your pipeline begins to run.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image257.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s build a simple event listener for a CD pipeline.
 
@@ -5608,6 +5650,13 @@ passed to the binding named \"cd-binding\", and then the binding will
 marshal that data into the parameters needed for the trigger template
 named \"cd-template\" and invoke that template.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image258.png"
+    alt="."
+    width="400" />
+</p>
+
 Now that you have the event listener, you can create the binding that it
 references.
 
@@ -5616,6 +5665,13 @@ kind as TriggerBinding.
 
 Using the metadata, you give it the name \"cd--binding\" so that it
 matches the name in the EventListener.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image259.png"
+    alt="."
+    width="400" />
+</p>
 
 Next, you define the specifications, starting with the parameters.
 
@@ -5628,11 +5684,25 @@ To figure this out for GitHub, you would look at the JSON file coming
 from the body of a GitHub event to understand where to pull these
 parameters from.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image260.png"
+    alt="."
+    width="400" />
+</p>
+
 The second parameter has the name \"branch\" with a value that comes
 from body.ref.
 
 This is how you bind the data from an incoming event to the parameters
 that your pipeline needs.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image261.png"
+    alt="."
+    width="400" />
+</p>
 
 Now you need to specify the trigger template that was referenced in the
 event listener.
@@ -5643,6 +5713,13 @@ This time you specify the kind as TriggerTemplate.
 
 Using the metadata, you give it the name \"cd-template\" so that it
 matches the name in the EventListener.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image262.png"
+    alt="."
+    width="400" />
+</p>
 
 Next, you define the specifications, starting with the parameters.
 
@@ -5660,9 +5737,23 @@ Again, if the branch parameter is not passed in from the trigger
 binding, the value of \"master\" will be used as the branch parameter
 for the pipeline.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image263.png"
+    alt="."
+    width="400" />
+</p>
+
 Now, you\'re ready to define the resource templates to be used.
 
 This is all part of the same TriggerTemplate definition.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image264.png"
+    alt="."
+    width="400" />
+</p>
 
 The resourcetemplates section of the TriggerTemplate contains a
 PipelineRun resource.
@@ -5681,6 +5772,13 @@ This generates a unique ID and appends it to the partial name that you
 supply.
 
 This is an effective way of giving all your pipeline runs a unique name.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image265.png"
+    alt="."
+    width="400" />
+</p>
 
 Next, you list the specifications.
 
@@ -5716,8 +5814,22 @@ from the params section of this TriggerTemplate, so you reference it as
 
 Now you have everything you need to trigger a pipeline.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image266.png"
+    alt="."
+    width="400" />
+</p>
+
 You saw that even if the parameter name doesn\'t always match, you were
 still able to map them to each other.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image267.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s take a look at how the parameters are flowing.
 
@@ -5743,6 +5855,13 @@ You are ready to see if your trigger works.
 
 You can test this locally using the curl command.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image268.png"
+    alt="."
+    width="400" />
+</p>
+
 Before you do, you need to locally expose the event listener.
 
 Normally, you would set up an Ingress to expose the EventListener as an
@@ -5754,6 +5873,13 @@ This forwards the port the EventListener is listening on, which is port
 
 In this case, you selected 8090.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image269.png"
+    alt="."
+    width="400" />
+</p>
+
 Next, you use the curl command and POST to localhost:8090.
 
 You set the Content-Type in the header to specify that the payload that
@@ -5762,12 +5888,33 @@ you are sending is application/json.
 And finally, you use the dash \"D\" parameter to send the data in JSON
 format.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image270.png"
+    alt="."
+    width="400" />
+</p>
+
 If you remember, you told the TriggerBinding to get the repository
 parameter from (body.repository.url), so the body of your JSON message
 has a \"repository\" attribute with a \"url\" attribute under it.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image271.png"
+    alt="."
+    width="400" />
+</p>
+
 When you press ENTER, you receive a message from the EventListener
 letting you know that it has accepted your request.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image272.png"
+    alt="."
+    width="400" />
+</p>
 
 If you use the 'tekton pipelinerun logs' command to specify the latest
 logs, you see that the pipeline is still running, and eventually, you
@@ -5778,15 +5925,26 @@ of the repository you told it to clone.
 
 This is how you know that it worked.
 
-In this module, you learned that Tekton EventListeners can be used to
-listen for external events, Tekton TriggerBindings can respond to those
-events and bind parameters from them, Tekton TriggerTemplates can create
-PipelineRuns, passing in the parameters to the pipeline, and you can
-test your EventListener using the curl command.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image273.png"
+    alt="."
+    width="400" />
+</p>
+
+In this module, you learned that;
+
+-   Tekton EventListeners can be used to listen for external events, 
+
+-   Tekton TriggerBindings can respond to those events and bind parameters from them, 
+
+-   Tekton TriggerTemplates can create PipelineRuns, passing in the parameters to the pipeline, and 
+
+-   You can test your EventListener using the curl command.
 
 <h3>Hands-on Lab: Adding GitHub Triggers</h3>
 
-Welcome to this hands-on lab for** Adding GitHub Triggers.**
+Welcome to this hands-on lab for <b>Adding GitHub Triggers</b>.
 
 Running a pipeline manually has limited uses. In this lab you will
 create a Tekton Trigger to cause a pipeline run from external events
@@ -5798,9 +5956,8 @@ Email will be passed to SN Labs and will be used in strict accordance
 with IBM Skills Network Privacy policy, such as for communicating
 important information to enhance your learning experience.  
 
-In case you need to download the lab instructions
-click [HERE](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/02_add_github_trigger.md.html) to
-open a new tab. 
+In case you need to download the lab instructions click <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0215EN-SkillsNetwork/labs/module3/02_add_github_trigger.md.html">
+HERE</a> to open a new tab.
 
 <h3>Adding GitHub Triggers (External resource)</h3>
 
@@ -5815,11 +5972,29 @@ Open Tool 
 
 Welcome to 'Leveraging the Tekton Catalog.'
 
-After this module, you will be able to describe how to use the Tekton
-catalog, explain how to create a workspace for tasks, and describe how
-to use tasks from the Tekton catalog in a Tekton pipeline.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image274.png"
+    alt="."
+    width="400" />
+</p>
+
+After this module, you will be able to;
+
+-   Describe how to use the Tekton catalog, 
+
+-   Explain how to create a workspace for tasks, and 
+
+-   Describe how to use tasks from the Tekton catalog in a Tekton pipeline.
 
 So, what is the Tekton catalog?
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image275.png"
+    alt="."
+    width="400" />
+</p>
 
 The Tekton catalog, also known as the Tekton Hub, is a repository of
 Tekton tasks that have been contributed by the community, representing a
@@ -5836,6 +6011,13 @@ hours of task maintenance as well.
 Remember: A line of code that you didn't write is a line of code that
 you don\'t have to maintain.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image276.png"
+    alt="."
+    width="400" />
+</p>
+
 The task categories available at the Tekton Hub include automation,
 build tools, code quality, continuous integration, developer tools like
 Git, building images, Kubernetes and open shift tasks, networking,
@@ -5844,6 +6026,13 @@ monitoring, security, and publishing, just to name a few.
 As mentioned previously, you should always check the Tekton Hub before
 you start to write any task, because chances are, someone has already
 written one that you can use.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image277.png"
+    alt="."
+    width="400" />
+</p>
 
 When you select a task and view the details, you see instructions on how
 to install the task.
@@ -5871,6 +6060,13 @@ run permissions.
 Finally, the details include information on the platforms that the task
 can run on, and some even give helpful usage examples.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image278.png"
+    alt="."
+    width="400" />
+</p>
+
 Probably the first thing you need to do in your pipeline is use git to
 clone your source code so that it can be built, and other checks can be
 run on it.
@@ -5884,17 +6080,38 @@ That looks like the exact task you need.
 
 So, you select it to view the details.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image279.png"
+    alt="."
+    width="400" />
+</p>
+
 The details page gives you all the information needed to use the task in
 your pipeline.
 
 Some tasks like git-clone have a lot of optional parameters but don\'t
 be overwhelmed.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image280.png"
+    alt="."
+    width="400" />
+</p>
+
 When you look at the overview, you see that the git-clone task only
 requires two inputs.
 
 The URL of the repository that you want to clone, and a workspace called
 \"output\" to clone the source code into.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image281.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s see how you can use this information to implement this task in a
 pipeline.
@@ -5908,21 +6125,49 @@ is isolated from every other pod.
 
 That makes it difficult to transfer data between tasks.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image282.png"
+    alt="."
+    width="400" />
+</p>
+
 You solve this problem by providing a workspace that is a shared volume
 that each task has access to.
 
 This allows them to share data through this volume.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image283.png"
+    alt="."
+    width="400" />
+</p>
 
 If you think about it, this is required for sharing build artifacts.
 
 You can\'t lint your code without cloning it from Git first, and so
 there must be a way to share the code, and a workspace is the answer.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image284.png"
+    alt="."
+    width="400" />
+</p>
+
 Workspaces are declared in the PipelineRun, and because they are
 implemented as a Kubernetes PersistentVolumeClaim, it is up to the
 PipelineRun to map from the name of the workspace that the pipeline is
 expecting to a PersistentVolumeClaim that the pipeline can use to store
 its artifacts.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image285.png"
+    alt="."
+    width="400" />
+</p>
 
 Let's take a look at how this is done.
 
@@ -5951,7 +6196,21 @@ From this point forward, the pipeline can reference it by the name
 
 Finally, you pass on any parameters that the pipeline requires.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image286.png"
+    alt="."
+    width="400" />
+</p>
+
 In this example, it's a parameter named \"repo-url\".
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image287.png"
+    alt="."
+    width="400" />
+</p>
 
 Now, let\'s take a look at how to write the pipeline task using the
 git-clone task from the Tekton catalog.
@@ -5983,6 +6242,13 @@ Also remember, that the git-clone task requires that a parameter named
 so you map the \"repo-url\" parameter from the pipeline into the \"url\"
 parameter that the task requires.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image288.png"
+    alt="."
+    width="400" />
+</p>
+
 The task is complete and ready to run.
 
 Let\'s review where everything came from.
@@ -5990,18 +6256,57 @@ Let\'s review where everything came from.
 From the details of the git-clone task on Tekton Hub, you saw that you
 needed a workspace named \"output\", so you defined this for the task.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image289.png"
+    alt="."
+    width="400" />
+</p>
+
 The details also said that a parameter named \"url\" must be passed in,
 so you defined this for the task also.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image290.png"
+    alt="."
+    width="400" />
+</p>
+
 The workspace in the task was mapped to the pipeline-workspace from the
-pipeline spec, and the url parameter in the task was mapped to the
+pipeline spec, 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image291.png"
+    alt="."
+    width="400" />
+</p>
+
+and the url parameter in the task was mapped to the
 pipeline parameter repo-url from the pipeline spec.
 
-In this module, you learned that the Tekton catalog, or Tekton Hub, can
-be used to find reusable tasks for your CI/CD pipelines, each task
-defines the parameters and workspaces it needs in order to run, the
-PipelineRun must map the workspace to a PersistentVolumeClaim, and the
-parameters can be mapped from the pipeline to the task as needed.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image292.png"
+    alt="."
+    width="400" />
+</p>
+
+In this module, you learned that
+
+-   The Tekton catalog, or Tekton Hub, can be used to find reusable
+    tasks for your CI/CD pipelines,
+
+-   Each task defines the parameters and workspaces it needs in order to
+    run,
+
+-   The PipelineRun must map the workspace to a PersistentVolumeClaim,
+    and
+
+-   The parameters can be mapped from the pipeline to the task as
+    needed.
+
 
 <h3>Hands-on Lab: Use Tekton Continuous Delivery Catalog</h3>
 
@@ -6035,6 +6340,13 @@ Open Tool 
 
 Welcome to Creating Tasks for Quality Checks and Testing.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image293.png"
+    alt="."
+    width="400" />
+</p>
+
 After this module, you will be able to explain how to create your own
 tasks for quality checks and testing, describe how to add environment
 properties to a task, and describe how to specify when tasks should run
@@ -6043,16 +6355,37 @@ in parallel.
 Let\'s look at where you are in building a complete pipeline using
 Tekton.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image294.png"
+    alt="."
+    width="400" />
+</p>
+
 In previous modules, you've seen two ways to create the checkout stage
 of a pipeline, so you have that completed.
 
 Now it\'s time to build the other stages.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image295.png"
+    alt="."
+    width="400" />
+</p>
 
 To visualize this pipeline, you can think of it as a linear progression
 of tasks, to check out, lint, test, build, and deploy your application.
 
 But in reality, quality checks like running lint and unit testing are
 completely independent.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image296.png"
+    alt="."
+    width="400" />
+</p>
 
 So, the pipeline can look like this with quality checks and unit tests
 running in parallel.
@@ -6062,6 +6395,13 @@ really doesn\'t matter.
 
 This allows you to take advantage of Tekton\'s parallel processing to
 speed up the pipeline run.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image297.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s look at testing first.
 
@@ -6082,6 +6422,13 @@ the tool that you use isn't in the catalog?
 In this case, you can simply build your own tasks to run the tool you're
 already using to automate your tests.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image298.png"
+    alt="."
+    width="400" />
+</p>
+
 Creating your own task is quite simple.
 
 You start with a script that you probably already have.
@@ -6092,8 +6439,22 @@ the latest versions.
 Then, it uses pip, the Python package manager, to install the required
 Python package dependencies.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image299.png"
+    alt="."
+    width="400" />
+</p>
+
 Finally, it runs the Python test runner called nosetests and passes in
 some parameters to make the output colorful.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image300.png"
+    alt="."
+    width="400" />
+</p>
 
 You can use this exact script in your Tekton task, which means that the
 same commands your developers are using to test their code locally can
@@ -6135,11 +6496,25 @@ You use the \"script\" parameter with a vertical bar to indicate that
 the script will be specified in-line on the lines that follow, and you
 paste your script below it.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image301.png"
+    alt="."
+    width="400" />
+</p>
+
 This is the full step implementation after adding your script. That\'s
 how easy it is to take existing scripts and incorporate them into your
 Tekton pipeline. This works great until you realize that your test cases
 require a database, and that the database URI is normally specified as
 an environment variable.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image302.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s look at how to handle this.
 
@@ -6159,6 +6534,13 @@ that your application knows how to connect to the database.
 Let\'s take a look at how you can use environment variables in Tekton to
 provide a database URI for your tests.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image303.png"
+    alt="."
+    width="400" />
+</p>
+
 Let\'s say you have a secret named \"redis-creds\" defined in your
 Kubernetes cluster.
 
@@ -6171,6 +6553,13 @@ the test database.
 
 Let\'s look at how to define this.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image304.png"
+    alt="."
+    width="400" />
+</p>
+
 In the nosetests task in your Tekton steps, you can create an
 environment definition to make this variable available to your task.
 
@@ -6179,7 +6568,21 @@ cases are expecting.
 
 In this example, that's DATABASE_URI, all uppercase.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image305.png"
+    alt="."
+    width="400" />
+</p>
+
 You define that the value is coming from a secret.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image306.png"
+    alt="."
+    width="400" />
+</p>
 
 The name of that secret is \"redis-creds\", and the data key is called
 \"database_uri\".
@@ -6187,12 +6590,26 @@ The name of that secret is \"redis-creds\", and the data key is called
 This is what maps the value of the key in the secret to the value of the
 environment variable that your tests see.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image307.png"
+    alt="."
+    width="400" />
+</p>
+
 Let\'s see how you can add this to your Tekton task.
 
 This is your current task.
 
 You can insert the environment definition anywhere in the step, so you
 add it right above the script.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image308.png"
+    alt="."
+    width="400" />
+</p>
 
 You move the script down to make some room, and paste the code from the
 previous example.
@@ -6207,6 +6624,13 @@ database. As mentioned earlier, all cloud providers have a way of
 injecting environment properties into their runtimes. So, this technique
 can also be used when running Tekton pipelines in a cloud environment.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image309.png"
+    alt="."
+    width="400" />
+</p>
+
 You use the same method for creating your own task for quality checks
 like linting. You start with a script that you already have.
 
@@ -6214,6 +6638,13 @@ Just like the test script, this script starts out by upgrading pip and
 wheel so that you're using the latest version.
 
 Then, it uses pip to install the required Python package dependencies.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image310.png"
+    alt="."
+    width="400" />
+</p>
 
 Finally, it runs the flake8 command to check for any quality issues.
 
@@ -6225,6 +6656,13 @@ You could also make it more generic and pass in the arguments as
 parameters.
 
 You can decide how flexible you want to make it.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image311.png"
+    alt="."
+    width="400" />
+</p>
 
 Now, let\'s look at how you can add these two new steps to the pipeline.
 
@@ -6245,17 +6683,37 @@ GitHub before you can run tests on it.
 The lint task is much the same except that it uses the name \'lint\' and
 references the \'flake8\' task you created.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image312.png"
+    alt="."
+    width="400" />
+</p>
+
 These two tasks run in parallel because they are both specified to run
 after the clone task.
 
 So, both tasks will run after the clone task completes.
 
-In this module, you learned that you can write your own task if one
-doesn\'t exist in the Tekton catalog, these tasks can use existing shell
-scripts that you already have. You can define environment variables to
-pass configuration information into a task, and tasks like tests and
-quality checks, can be run serially or in parallel, depending on your
-needs.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image313.png"
+    alt="."
+    width="400" />
+</p>
+
+In this module, you learned that;
+
+-   You can write your own task if one doesn\'t exist in the Tekton
+    catalog,
+
+-   These tasks can use existing shell scripts that you already have,
+
+-   You can define environment variables to pass configuration
+    information into a task, and
+
+-   Tasks like tests and quality checks, can be run serially or in
+    parallel, depending on your needs.
 
 <h3>Lab: Integrating Unit Test Automation</h3>
 
@@ -6287,14 +6745,39 @@ Open Tool 
 
 Welcome to 'Building an Image.'
 
-After this module, you will be able to explain how to use the Tekton CLI
-to search for tasks, explain how to find a task to build and deploy an
-image, and describe how to add a deploy task to a pipeline after
-parallel tasks.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image314.png"
+    alt="."
+    width="400" />
+</p>
+
+After this module, you will be able to;
+
+-   Explain how to use the Tekton CLI to search for tasks,
+
+-   Explain how to find a task to build and deploy an image, and
+
+-   Describe how to add a deploy task to a pipeline after parallel
+    tasks.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image315.png"
+    alt="."
+    width="400" />
+</p>
 
 So far in creating your CD pipeline, you have addressed checking out the
 code by cloning it from GitHub, and running quality checks and unit
 tests like flake8 and nose.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image316.png"
+    alt="."
+    width="400" />
+</p>
 
 Now it\'s time to build a container image in preparation to deploy to
 Kubernetes.
@@ -6309,6 +6792,13 @@ Hub for any new tasks you might need including this build task.
 In fact, you can also use the Tekton CLI \"hub\" command to search for
 pipelines and tasks.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image317.png"
+    alt="."
+    width="400" />
+</p>
+
 Let\'s see how that works.
 
 You can use the command \'tkn hub search\' followed by the \"build\"
@@ -6318,6 +6808,13 @@ You can also add the \`\--kinds\` flag to indicate that you're only
 searching for tasks right now.
 
 All the tasks that match the \"build\" keyword are returned.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image318.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s take a closer look at some of the returned search results.
 
@@ -6350,6 +6847,13 @@ a Dockerfile.
 There are many build tasks to choose from, but you select buildah as the
 tool for your pipeline.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image319.png"
+    alt="."
+    width="400" />
+</p>
+
 I\'d like to point out that administrators can install tasks at the
 cluster level.
 
@@ -6370,16 +6874,44 @@ you want to install, which in this case is \'buildah'.
 You should see a result returned that indicates that buildah has been
 installed into your current namespace.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image320.png"
+    alt="."
+    width="400" />
+</p>
+
 So, how do you make use of the buildah task?
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image321.png"
+    alt="."
+    width="400" />
+</p>
 
 When you read the buildah documentation on Tekton Hub, you see that the
 only required parameter is the \'IMAGE\' parameter because it doesn\'t
 have a default.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image322.png"
+    alt="."
+    width="400" />
+</p>
+
 You also see that it requires a workspace named \'source\'.
 
 With those two pieces of information, you are ready to add the buildah
 task to your Tekton pipeline.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image323.png"
+    alt="."
+    width="400" />
+</p>
 
 To add buildah to the pipeline, you start by adding a new pipeline
 parameter call \'build-image'.
@@ -6416,6 +6948,13 @@ pipeline parameter of the same name.
 Finally, you specify that this pipeline task should run after both the
 \'tests\' and \'lint\' tasks have completed.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image324.png"
+    alt="."
+    width="400" />
+</p>
+
 If you remember, \'tests\' and \'lint\' are running in parallel, so if
 you want to make sure that you don\'t build an image until the code is
 tested and linted,
@@ -6427,11 +6966,25 @@ And that\'s it.
 
 You have successfully added a build task to your pipeline using buildah.
 
-In this module, you learned that you can use Tekton Hub to find build
-tasks for your CI/CD pipelines, you can use the Tekton CLI to find tasks
-instead of using the website, you can use ClusterTasks without having to
-install them locally in your namespace, and to run a task after parallel
-tasks, you must specify all the parallel tasks in runAfter.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image325.png"
+    alt="."
+    width="400" />
+</p>
+
+In this module, you learned that;
+
+-   You can use Tekton Hub to find build tasks for your CI/CD pipelines,
+
+-   You can use the Tekton CLI to find tasks instead of using the
+    website,
+
+-   You can use ClusterTasks without having to install them locally in
+    your namespace, and
+
+-   To run a task after parallel tasks, you must specify all the
+    parallel tasks in runAfter.
 
 <h3>Hands-on Lab: Building an Image</h3>
 
@@ -6465,10 +7018,27 @@ Open Tool 
 
 Welcome to 'Deploying to Kubernetes.'
 
-After this module, you will be able to describe how to use the Tekton
-CLI to get task information, explain how to deploy an application using
-only CLI commands, and explain how to deploy an application using
-Kubernetes manifests.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image326.png"
+    alt="."
+    width="400" />
+</p>
+
+After this module, you will be able to;
+
+-   Describe how to use the Tekton CLI to get task information,
+
+-   Explain how to deploy an application using only CLI commands, and
+
+-   Explain how to deploy an application using Kubernetes manifests.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image327.png"
+    alt="."
+    width="400" />
+</p>
 
 You are now at the final stage of your CD pipeline.
 
@@ -6476,8 +7046,22 @@ You have addressed checking out the code by cloning it from GitHub,
 running quality checks and unit tests like flake8 and nose, and you have
 built a container image and pushed it to a local registry.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image328.png"
+    alt="."
+    width="400" />
+</p>
+
 Now it\'s time to deploy your application to an environment,
 specifically Kubernetes.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image329.png"
+    alt="."
+    width="400" />
+</p>
 
 There are many ways that you can choose to deploy your application to
 Kubernetes.
@@ -6503,6 +7087,13 @@ of the kubectl command, that allows you to customize those deployments
 to different environments on the fly with minimal changes to your
 manifest files.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image330.png"
+    alt="."
+    width="400" />
+</p>
+
 Since you want to use one of the command line interfaces to deploy your
 application, you can use the command \'tkn hub search\' followed by the
 \"cli\" search criteria to search for tasks that have been annotated
@@ -6511,8 +7102,22 @@ with the \'cli\' tag.
 All the tasks that match the keyword \"cli\" or have the \'cli\' tag are
 returned.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image331.png"
+    alt="."
+    width="400" />
+</p>
+
 You can see that the \`openshift-client\` is in this list, so let\'s
 investigate that one.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image332.png"
+    alt="."
+    width="400" />
+</p>
 
 You can get more information on a task from the command line without
 going to Tekton Hub.
@@ -6523,6 +7128,13 @@ of the task that you want information on, which in this example is
 
 You see a detailed description returned that describes the task and even
 tells you how to install it.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image333.png"
+    alt="."
+    width="400" />
+</p>
 
 From the description, you can see that this is exactly what you need, so
 let\'s install it.
@@ -6538,6 +7150,13 @@ there is no need to install it locally in your namespace.
 
 If this is the case in your cluster, you are good to go.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image334.png"
+    alt="."
+    width="400" />
+</p>
+
 Otherwise, you can install the openshift-client task using the Tekton
 CLI.
 
@@ -6547,15 +7166,36 @@ that you want to install, which in this case is \'openshift-client\'.
 You should see a returned result indicating that openshift-client has
 been installed in your current default namespace.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image335.png"
+    alt="."
+    width="400" />
+</p>
+
 If you look at the OpenShift Client task documentation on Tekton Hub,
 you see that it requires only one parameter with the name SCRIPT that
 represents the script you want to run.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image336.png"
+    alt="."
+    width="400" />
+</p>
 
 It also specifies an optional parameter named \'manifest-dir\' if you
 have any manifests you want to deploy from.
 
 This looks to be perfect for deploying your application in a variety of
 ways.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image337.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s add the deploy task to the pipeline using a single command line
 that specifies the deployment name and what image to use.
@@ -6598,6 +7238,13 @@ And that\'s it.
 
 You have successfully added a deploy task to your pipeline using the
 openshift-client task from the Tekton catalog at Tekton Hub.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image338.png"
+    alt="."
+    width="400" />
+</p>
 
 Let\'s look at an alternate deploy implementation.
 
@@ -6645,11 +7292,23 @@ Finally, you specify that this pipeline task should run after the
 So, that\'s an alternate way of deploying your application to Kubernetes
 when you have a set of manifest YAML files that you want to apply.
 
-In this module, you learned that the Tekton CLI can be used for both
-searching and getting information about tasks in Tekton Hub, there are
-multiple CLI tasks that allow you to run any CLI commands that you need,
-and you can deploy applications using only commands or apply manifests
-in YAML format.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image339.png"
+    alt="."
+    width="400" />
+</p>
+
+In this module, you learned that;
+
+-   The Tekton CLI can be used for both searching and getting
+    information about tasks in Tekton Hub,
+
+-   There are multiple CLI tasks that allow you to run any CLI commands
+    that you need, and
+
+-   You can deploy applications using only commands or apply manifests
+    in YAML format.
 
 <h3>Hands-on Lab: Deploy to Kubernetes/ Open Shift</h3>
 
