@@ -4172,7 +4172,7 @@ and deploying your application to an environment. 
 -   Use the OpenShift client in Tekton to deploy a Docker image to
     Kubernetes.
 
-<h2 id="3-01">Module 3-01. Continuous Delivery (2:00)</h2>
+<h2 id="3-01">Module 3-01. Continuous Delivery</h2>
 
 Welcome to Module 3, Continuous Delivery.
 
@@ -4221,7 +4221,7 @@ with or modify for your own projects.
 
 So, let\'s get started.
 
-<h2 id="3-02">Module 3-02. What is Continuous Delivery? (4:41)</h2>
+<h2 id="3-02">Module 3-02. What is Continuous Delivery?</h2>
 
 Welcome to 'What is Continuous Delivery?'
 
@@ -4410,7 +4410,7 @@ In this module, you learned that:
     Quality Assurance and Staging or Testing to ensure that what you
     deliver to production is bug-free and fit for purpose.
 
-<h2 id="3-03">Module 3-03. Continuous Delivery Key Principles (2:46)</h2>
+<h2 id="3-03">Module 3-03. Continuous Delivery Key Principles</h2>
 
 Welcome to 'Continuous Delivery Key Principles.'
 
@@ -4528,7 +4528,7 @@ In this module, you learned that
 
 -   Everyone is responsible for their part in the story.
 
-<h2 id="3-04">Module 3-04. Continuous Delivery Practices (4:14)</h2>
+<h2 id="3-04">Module 3-04. Continuous Delivery Practices</h2>
 
 Welcome to 'Continuous Delivery Practices.'
 
@@ -7370,21 +7370,14 @@ course, you know: 
 -   You can deploy applications to an environment using commands or YAML
     manifests.
 
-<h3>Module Introduction</h3>
-
+<h1>Module 4 Introduction - Final Exam</h1>
 In this module, you will complete a final exam that tests your knowledge
 of the course's content. The exam will include questions on topics
 including but not limited to CI/CD's principles, features, benefits,
 tools, and methods of implementation.
-
-<h1>Module 4 Introduction - Final Exam (0:55)</h1>
-
 Welcome to Module 4, the Final Exam.
-
 Congratulations!
-
 You've made it to the final exam.
-
 Hopefully, you have learned all about Continuous Integration and
 Continuous Delivery.
 
