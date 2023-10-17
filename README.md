@@ -12,7 +12,7 @@ ibm-ci-cd: ibm's Continuous Integration / Continuous Delivery
   <img src="./assets/images/image001.png" 
   alt="" 
   style="border: 2px solid  red;" 
-  width="200" />
+  width="400" />
 
 <!-- ![](./images/image001.png){width="2.0in" height="1.094737532808399in"} -->
 
