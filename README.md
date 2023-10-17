@@ -8,6 +8,8 @@ ibm-ci-cd: ibm's Continuous Integration / Continuous Delivery
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of ibm-ci-cd.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--  <img src="./assets/images/image001.png" -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./assets/images/image001.png" 
   alt="" 
@@ -267,20 +269,13 @@ Please read on.
 
 Before you take this course, you should know about the following topics:
 
--   [IT and cloud computing
-    fundamentals  ](https://www.edx.org/course/introduction-to-cloud-computing-6)
-
--   [DevOps
-    principles  ](https://www.edx.org/course/devops-basics-for-everyone)
-
--   [Containers and Kubernetes
-    fundamentals  ](https://www.edx.org/course/introduction-to-containers-kubernetes-and-openshift?index=product_value_experiment_a&queryID=4e6974fe286fe5396bb65ecdc87f0b1b&position=1&linked_from=autocomplete&c=autocomplete)
-
--   [Linux
-    commands  ](https://www.edx.org/course/linux-commands-shell-scripting?index=product_value_experiment_a&queryID=315e67a884ae7a79e62d72416cc7531c&position=1&linked_from=autocomplete&c=autocomplete)
-
--   [Git and
-    GitHub  ](https://www.edx.org/course/introduction-to-git-and-github?index=product_value_experiment_a&queryID=29caf3aae9771d2d1fb0c1e5c46f9d4b&position=4&linked_from=autocomplete&c=autocomplete)
+<ul>
+  <li><a href="https://www.edx.org/course/introduction-to-cloud-computing-6">IT and cloud computing fundamentals</a></li>
+  <li><a href="https://www.edx.org/course/devops-basics-for-everyone">DevOps principles</a>a></li>
+  <li><a href="https://www.edx.org/course/introduction-to-containers-kubernetes-and-openshift?index=product_value_experiment_a&queryID=4e6974fe286fe5396bb65ecdc87f0b1b&position=1&linked_from=autocomplete&c=autocomplete">Containers and Kubernetes fundamentals</a></li>
+  <li><a href="https://www.edx.org/course/linux-commands-shell-scripting?index=product_value_experiment_a&queryID=315e67a884ae7a79e62d72416cc7531c&position=1&linked_from=autocomplete&c=autocomplete">Linux commands</a></li>
+  <li><a href="https://www.edx.org/course/introduction-to-git-and-github?index=product_value_experiment_a&queryID=29caf3aae9771d2d1fb0c1e5c46f9d4b&position=4&linked_from=autocomplete&c=autocomplete">Git and GitHub</a></li>
+</ul>
 
 If you do not have this level of knowledge, click the links above to
 view courses that can help you gain the skills required.
